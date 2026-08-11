@@ -1,36 +1,87 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Mi Portafolio
 
-## Getting Started
+Portfolio personal construido con Next.js 14 (App Router), TypeScript y Tailwind CSS.
 
-First, run the development server:
+## Stack
+- **Next.js 14** — App Router, SSG
+- **TypeScript**
+- **Tailwind CSS** — solo para utilidades de layout
+- **CSS Variables** — para todos los tokens de diseño
+
+---
+
+## Inicio rápido
 
 ```bash
+# 1. Crear el proyecto base
+npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias "@/*"
+
+# 2. Copiar los archivos de este repo sobre el proyecto creado
+
+# 3. Correr en desarrollo
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Personalización
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Tokens de diseño
+Todo el sistema visual vive en `src/app/globals.css`:
 
-## Learn More
+```css
+:root {
+  --color-bg:      #FAFAFA;   /* fondo */
+  --color-fg:      #111111;   /* texto principal */
+  --color-muted:   #888888;   /* texto secundario */
+  --color-border:  #E5E5E5;   /* bordes */
+  --color-accent:  #2A2AE8;   /* acento único */
+}
+```
 
-To learn more about Next.js, take a look at the following resources:
+### Contenido
+Todos los datos de proyectos y docencia están en `src/lib/projects.ts`.
+No hay base de datos ni CMS — todo en un solo archivo TypeScript.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Case studies
+Cada proyecto tiene su página en `src/app/proyectos/[slug]/page.tsx`.
+El contenido de cada case study va directo en esa página por ahora.
+Cuando tengas varios, podés migrar a MDX.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## Estructura de carpetas
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```
+src/
+├── app/
+│   ├── layout.tsx              # Fuentes, metadata global
+│   ├── page.tsx                # Inicio (Hero + proyectos destacados)
+│   ├── globals.css             # Tokens + estilos base
+│   ├── proyectos/
+│   │   ├── page.tsx            # Listado de proyectos
+│   │   └── [slug]/page.tsx     # Case study individual
+│   ├── docencia/page.tsx
+│   └── contacto/page.tsx
+├── components/
+│   ├── layout/
+│   │   ├── Navbar.tsx
+│   │   └── Footer.tsx
+│   └── ui/
+│       └── ProjectCard.tsx
+├── lib/
+│   └── projects.ts             # Datos de proyectos y docencia
+└── types/
+    └── index.ts
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## To-do sugerido
+
+- [ ] Reemplazar datos de ejemplo en `src/lib/projects.ts`
+- [ ] Agregar imágenes reales en `/public/projects/`
+- [ ] Completar los case studies en cada `[slug]/page.tsx`
+- [ ] Ajustar colores en `globals.css`
+- [ ] Configurar dominio y deploy en Vercel
+- [ ] Agregar `og:image` por proyecto
