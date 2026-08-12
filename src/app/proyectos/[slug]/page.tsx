@@ -1,6 +1,6 @@
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
-import { getProjectBySlug, projects } from '@/lib/projects.tsx'
+import { getProjectBySlug, projects } from '@/lib/projects'
 
 /* Genera rutas estáticas para cada proyecto */
 export function generateStaticParams() {
