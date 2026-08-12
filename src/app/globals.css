@@ -152,3 +152,8 @@ hr {
   margin-top: 2.5rem;
   margin-bottom: 1rem;
 }
+@media (max-width: 768px) {
+  .responsive {
+    display: none;
+  }
+}

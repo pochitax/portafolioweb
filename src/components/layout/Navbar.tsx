@@ -44,7 +44,7 @@ export default function Navbar() {
           }}
         >
           <Image src="/flor.svg" alt="Paola Véliz" width={60} height={60} style={{ marginRight: '20px' }} />
-          ¡Hola... soy Paola
+          <span className='responsive'>¡Hola!... soy Paola</span>
         </Link>
 
         {/* Links */}
