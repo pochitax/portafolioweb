@@ -10,42 +10,25 @@ export default function FloralBackground() {
     if (!svg) return
 
     const paths = Array.from(svg.querySelectorAll('path'))
+    const totalDuration = 6000 // duración total del dibujo en ms
+    const delayBetween  = totalDuration / paths.length
 
     paths.forEach((path, i) => {
-        const length = path.getTotalLength()
+      const length = path.getTotalLength()
 
-        // Estado inicial: solo trazo, sin relleno
-        path.setAttribute('fill', 'none')
-        path.setAttribute('stroke', 'var(--color-accent)')
-        path.setAttribute('stroke-width', '1.5')
-        path.style.strokeDasharray  = `${length}`
-        path.style.strokeDashoffset = `${length}`
-        path.style.transition       = `stroke-dashoffset 2.5s ease ${i * 0.6}s`
+      path.style.fill             = 'none'
+      path.style.stroke           = 'var(--color-accent)'
+      path.style.strokeWidth      = '1'
+      path.style.strokeDasharray  = `${length}`
+      path.style.strokeDashoffset = `${length}`
 
-        // Animar el trazado
-        requestAnimationFrame(() => {
-        requestAnimationFrame(() => {
-            path.style.strokeDashoffset = '0'
-        })
-        })
-
-        // Una vez terminado el trazo, rellenar y quitar el stroke
-        const drawDuration = (2.5 + i * 0.6) * 1000
-
-        setTimeout(() => {
-        path.style.transition = 'fill-opacity 1s ease'
-        path.setAttribute('fill-opacity', '0')
-        path.setAttribute('fill', 'var(--color-accent)')
-
-        requestAnimationFrame(() => {
-            requestAnimationFrame(() => {
-            path.setAttribute('fill-opacity', '1')
-            path.setAttribute('stroke', 'none')
-            })
-        })
-        }, drawDuration)
+      // Cada path empieza a dibujarse después del anterior
+      setTimeout(() => {
+        path.style.transition       = `stroke-dashoffset 1.5s ease`
+        path.style.strokeDashoffset = '0'
+      }, i * delayBetween)
     })
-    }, [])
+  }, [])
 
   return (
     <svg
@@ -53,14 +36,14 @@ export default function FloralBackground() {
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 762.71 872.29"
       style={{
-        position:   'absolute',
-        right:      '-5%',
-        bottom:     '-10%',
-        width:      '55%',
-        maxWidth:   '520px',
-        opacity:    0.12,
+        position:      'absolute',
+        right:         '-5%',
+        bottom:        '-10%',
+        width:         '55%',
+        maxWidth:      '900px',
+        opacity:       0.15,
         pointerEvents: 'none',
-        zIndex:     0,
+        zIndex:        0,
       }}
       aria-hidden="true"
     >
