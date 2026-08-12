@@ -24,7 +24,7 @@ export const projects: Project[] = [
     url:         'https://unidosporunasonrisa.cl',
     github:      'https://github.com/pochitax/unidosporunasonrisa',
     featured:    true,
-    coverImage:  '/projects/fintech.jpg',
+    coverImage:  '/projects/unidos.png',
     contenido:  `
     <h3>El problema</h3>
     <p>Durante 2025, el sitio web de la Fundación Gantz presentaba intermitencias en el servicio de hosting, generando caídas recurrentes, especialmente durante períodos de mayor flujo de visitas. Esta situación era crítica para la Fundación, ya que durante el año existen períodos de alta demanda asociados a campañas de donaciones y colectas. Como solución, se decidió externalizar la campaña de colecta mediante un nuevo dominio y una landing page, con el objetivo de distribuir el flujo y reducir las interrupciones del servicio.</p>
