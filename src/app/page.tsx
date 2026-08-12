@@ -103,9 +103,7 @@ export default function Home() {
         <div style={{ maxWidth: '55ch' }}>
           <h2 style={{ marginBottom: '1.25rem' }}>Sobre mí</h2>
           <p style={{ color: 'var(--color-muted)', lineHeight: 1.8, marginBottom: '1.5rem' }}>
-            Llevo [X] años trabajando en el cruce entre diseño y código. Comencé desde el
-            diseño, aprendí a construir lo que diseñaba, y hoy enseño ese camino completo a
-            otros en [institución o contexto].
+            Desde 2007, mi pasión e interés están en el cruce entre diseño y código. Comencé desde el diseño, aprendí a construir lo que diseñaba y hoy enseño ese camino completo a otros en Duoc UC. También trabajo de manera freelance, conectando la práctica profesional con la docencia y la vinculación con el medio.
           </p>
           <Link
             href="/contacto"
