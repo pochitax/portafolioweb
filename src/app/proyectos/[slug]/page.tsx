@@ -37,11 +37,11 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ slug
         ← Proyectos
       </Link>
 
-      {project.coverImage && (
+      {project.coverImage && project.coverImage.trim() !== '' && (
         <div style={{ marginBottom: '3rem', borderRadius: 'var(--radius)', overflow: 'hidden' }}>
           <Image
             src={project.coverImage}
-            alt={project.alt}
+            alt={project.title}
             width={1600}
             height={900}
             style={{

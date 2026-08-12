@@ -3,14 +3,14 @@ import { ReactNode } from 'react'
 export type Project = {
   slug:        string
   title:       string
-  alt:         string
+  alt?:         string
   description: string
   tags:        string[]
   year:        number
   url?:        string
   github?:     string
   featured:    boolean
-  coverImage:  string
+  coverImage?:  string
   contenido?:  string
 }
 
