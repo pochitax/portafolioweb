@@ -18,13 +18,23 @@ export const projects: Project[] = [
   {
     slug:        'unidos-por-una-sonrisa',
     title:       'Unidos por una sonrisa',
-    description: 'Construcción de landing page para la Fundación Gantz para la colecta nacional. El diseño fue ejecutado por la Agencia Redon y la adaptación de este diseño a HTML, CSS y responsive fue ejecutado por mi persona. Actualmente llevo la actualización y monitoreo del sitio.',
+    description: 'Construcción de landing page para la Fundación Gantz para la Colecta Nacional.',
     tags:        ['HTML', 'CSS', 'Responsive'],
     year:        2025,
     url:         'https://unidosporunasonrisa.cl',
     github:      'https://github.com/pochitax/unidosporunasonrisa',
     featured:    true,
     coverImage:  '/projects/fintech.jpg',
+    contenido:  `
+    <h3>El problema</h3>
+    <p>Durante 2025, el sitio web de la Fundación Gantz presentaba intermitencias en el servicio de hosting, generando caídas recurrentes, especialmente durante períodos de mayor flujo de visitas. Esta situación era crítica para la Fundación, ya que durante el año existen períodos de alta demanda asociados a campañas de donaciones y colectas. Como solución, se decidió externalizar la campaña de colecta mediante un nuevo dominio y una landing page, con el objetivo de distribuir el flujo y reducir las interrupciones del servicio.</p>
+
+    <h3>Proceso</h3>
+    <p>El diseño de la landing page fue desarrollado por la <a target="_blank" href="https://redon.cl/index.php">Agencia Redon</a>. Me encargué de adaptar la propuesta visual a HTML y CSS, implementando su versión responsive y resolviendo los distintos puntos de quiebre para asegurar una correcta visualización en diferentes dispositivos. Actualmente, estoy a cargo de la actualización y monitoreo del sitio.</p>
+
+    <h3>Resultado</h3>
+    <p>La landing page se mantiene estable y operativa, sin presentar nuevas interrupciones del servicio durante los períodos de mayor flujo de visitas.</p>
+  `,
   },
   {
     slug:        'plataforma-educativa',

@@ -1,6 +1,7 @@
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import { getProjectBySlug, projects } from '@/lib/projects'
+import Image from 'next/image'
 
 /* Genera rutas estáticas para cada proyecto */
 export function generateStaticParams() {
@@ -36,6 +37,21 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ slug
         ← Proyectos
       </Link>
 
+      {project.coverImage && (
+        <div style={{ marginBottom: '3rem', borderRadius: 'var(--radius)', overflow: 'hidden' }}>
+          <Image
+            src={project.coverImage}
+            alt={project.alt}
+            width={1600}
+            height={900}
+            style={{
+              width:  '100%',
+              height: 'auto',
+            }}
+          />
+        </div>
+      )}
+
       {/* Header del proyecto */}
       <header style={{ marginBottom: '3rem' }}>
         <p style={{ fontSize: '0.8125rem', color: 'var(--color-muted)', marginBottom: '0.75rem' }}>
@@ -67,42 +83,15 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ slug
       {/* Reemplazá estas secciones con el contenido real.   */}
       {/* En el futuro podés migrar esto a MDX.              */}
 
-      <section style={{ marginBottom: '3rem' }}>
-        <h2 style={{ fontSize: '1rem', marginBottom: '1rem', color: 'var(--color-muted)', fontWeight: 400, textTransform: 'uppercase', letterSpacing: '0.06em' }}>
-          El problema
-        </h2>
-        <p style={{ color: 'var(--color-muted)', lineHeight: 1.8 }}>
-          Describí el contexto, el usuario y el desafío que este proyecto buscaba resolver.
-        </p>
-      </section>
-
-      <section style={{ marginBottom: '3rem' }}>
-        <h2 style={{ fontSize: '1rem', marginBottom: '1rem', color: 'var(--color-muted)', fontWeight: 400, textTransform: 'uppercase', letterSpacing: '0.06em' }}>
-          Proceso
-        </h2>
-        <p style={{ color: 'var(--color-muted)', lineHeight: 1.8 }}>
-          Research, decisiones de diseño, iteraciones. Podés incluir imágenes de wireframes,
-          pruebas de usabilidad y exploración visual.
-        </p>
-      </section>
-
-      <section style={{ marginBottom: '3rem' }}>
-        <h2 style={{ fontSize: '1rem', marginBottom: '1rem', color: 'var(--color-muted)', fontWeight: 400, textTransform: 'uppercase', letterSpacing: '0.06em' }}>
-          Implementación
-        </h2>
-        <p style={{ color: 'var(--color-muted)', lineHeight: 1.8 }}>
-          Cómo llevaste el diseño a código. Stack, decisiones técnicas, desafíos.
-        </p>
-      </section>
-
-      <section>
-        <h2 style={{ fontSize: '1rem', marginBottom: '1rem', color: 'var(--color-muted)', fontWeight: 400, textTransform: 'uppercase', letterSpacing: '0.06em' }}>
-          Resultado
-        </h2>
-        <p style={{ color: 'var(--color-muted)', lineHeight: 1.8 }}>
-          Qué logró el proyecto. Métricas, aprendizajes, lo que harías distinto.
-        </p>
-      </section>
+      {project.contenido && (
+        <>
+          <div
+            className="prose"
+            dangerouslySetInnerHTML={{ __html: project.contenido }}
+            style={{ color: 'var(--color-muted)', lineHeight: 1.8 }}
+          />
+        </>
+      )}
 
       {/* Tags al pie */}
       <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem', marginTop: '3rem', paddingTop: '2rem', borderTop: '1px solid var(--color-border)' }}>

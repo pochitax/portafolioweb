@@ -3,6 +3,7 @@ import { ReactNode } from 'react'
 export type Project = {
   slug:        string
   title:       string
+  alt:         string
   description: string
   tags:        string[]
   year:        number
@@ -10,6 +11,7 @@ export type Project = {
   github?:     string
   featured:    boolean
   coverImage:  string
+  contenido?:  string
 }
 
 export type TeachingItem = {
