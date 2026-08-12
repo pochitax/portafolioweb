@@ -2,6 +2,7 @@
 
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
+import Image from 'next/image'
 
 const links = [
   { href: '/proyectos', label: 'Proyectos' },
@@ -38,8 +39,11 @@ export default function Navbar() {
             fontWeight: 500,
             letterSpacing: '-0.02em',
             fontSize: '0.9375rem',
+            display: 'flex',
+            alignItems: 'center'
           }}
         >
+          <Image src="/flor.svg" alt="Paola Véliz" width={60} height={60} style={{ marginRight: '20px' }} />
           Hola... soy Paola
         </Link>
 

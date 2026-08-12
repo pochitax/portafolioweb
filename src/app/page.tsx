@@ -3,6 +3,7 @@ import ProjectCard from '@/components/ui/ProjectCard'
 import { featuredProjects } from '@/lib/projects'
 import RotatingText from '@/components/ui/RotatingText'
 import HeroCanvas from '@/components/ui/HeroCanvas'
+import FloralBackground from '@/components/ui/FloralBackground'
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         style={{ display: 'flex', alignItems: 'center', position: 'relative', overflow: 'hidden' }}
 
       >
+        <FloralBackground />
         <HeroCanvas />
 
         <div className="container" 
@@ -57,6 +59,7 @@ export default function Home() {
             <Link href="/contacto"  className="btn-secondary">Contacto</Link>
           </div>
         </div>
+        
       </section>
 
       <hr />
