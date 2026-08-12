@@ -13,7 +13,6 @@ export const projects: Project[] = [
     url:         'https://mi-proyecto.vercel.app',
     github:      'https://github.com/tu-usuario/proyecto',
     featured:    true,
-    coverImage:  '/projects/salud.jpg',
   },
   {
     slug:        'unidos-por-una-sonrisa',
@@ -44,8 +43,7 @@ export const projects: Project[] = [
     year:        2023,
     url:         undefined,
     github:      undefined,
-    featured:    false,
-    coverImage:  '/projects/edu.jpg',
+    featured:    true,
   },
 ]
 
@@ -94,6 +92,7 @@ export const teaching: TeachingItem[] = [
       'Escuela de Skate Sausalito',
     ],
     tags:        ['Accesibilidad Web', 'Arquitectura y Diseño de Interfaces', 'Figma'],
+    externalUrl: 'https://www.duoc.cl/?noticia_post_type=estudiantes-de-diseno-grafico-realizan-pagina-web-accesible-para-el-instituto-antonio-vicente-mosquete',
   },
   {
     title:       'Docencia e impartición de asignaturas en Educación Continua', 
@@ -109,6 +108,7 @@ export const teaching: TeachingItem[] = [
       'Accesibilidad Web (FOL)',
       'Javascript Avanzado (FOL)',
     ],
+
   },
   {
     title:       'Evidencias de proyectos de estudiantes', 
