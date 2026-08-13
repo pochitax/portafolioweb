@@ -1,13 +1,12 @@
 import { Project, TeachingItem } from '../types/index'
 
 /* ─── Proyectos ──────────────────────────────────────────── */
-/* Reemplazá estos datos con los tuyos.                       */
 
 export const projects: Project[] = [
   {
     slug:        'fundacion-gantz',
     title:       'Fundación Gantz',
-    description: 'Front para el sitio web de la Fundación Gantz.',
+    description: 'De la docencia al desarrollo: Front para el sitio web de la Fundación Gantz.',
     tags:        ['HTML', 'CSS', 'Bootstrap', 'Accesibilidad'],
     year:        2026,
     url:         'https://gantz.cl',
