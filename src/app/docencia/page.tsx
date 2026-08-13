@@ -41,7 +41,7 @@ export default function DocenciaPage() {
                 {/* columna izquierda */}
                 <div className='columna-responsive'>
                   <p style={{ fontSize: '0.8125rem', color: 'var(--color-muted)', marginBottom: '0.25rem', textTransform: 'uppercase' }}>{item.period}</p>
-                  <p style={{ fontSize: '0.8125rem', color: '#666', marginBottom: '1rem', fontWeight: 'bold' }}>{item.institution}</p>
+                  <p style={{ fontSize: '0.8125rem', color: 'var(--color-muted)', marginBottom: '1rem', fontWeight: 'bold' }}>{item.institution}</p>
                 </div>
 
                 {/* columna derecha */}

@@ -143,10 +143,17 @@ hr {
   filter: grayscale(90%);
   opacity: .8;
 }
-.card-link:hover { border-color: var(--color-accent); }
+.card-link:hover { 
+  border-color: var(--color-accent); 
+  /* background-color: rgb(from var(--color-accent) r g b / 0.025); */
+}
 .card-link:hover img {
   filter: grayscale(0%);
   opacity: 1;
+}
+.card-link:hover span {
+  border-color: var(--color-accent) !important; 
+  color: var(--color-accent) !important;
 }
 
 .channel-link {

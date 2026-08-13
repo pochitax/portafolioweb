@@ -59,14 +59,36 @@ export const projects: Project[] = [
   `,
   },
   {
-    slug:        'plataforma-educativa',
-    title:       'Plataforma educativa',
-    description: 'UX y desarrollo de una plataforma de cursos online con dashboard de progreso y sistema de evaluaciones.',
-    tags:        ['UX', 'Next.js', 'Prisma', 'PostgreSQL'],
-    year:        2023,
-    url:         undefined,
-    github:      undefined,
+    slug:        'iavm',
+    title:       'Instituto Antonio Vicente Mosquete',
+    description: 'Docencia y accesibilidad aplicadas en un proyecto digital.',
+    tags:        ['Accesibilidad', 'UX'],
+    year:        2025,
+    url:         'https://iavm.cl/',
     featured:    true,
+    coverImage:  '/projects/iavm.jpg',
+    contenido:  `
+    <h3>El problema</h3>
+    <p>El Instituto Antonio Vicente Mosquete es el único establecimiento de la Región de Valparaíso que ofrece educación y rehabilitación gratuita para personas con discapacidad visual. Su sitio web presentaba importantes barreras de accesibilidad que dificultaban el acceso a información clave y limitaban la autonomía de sus usuarios y familias. El desafío fue desarrollar una propuesta de rediseño centrada en la inclusión, accesibilidad y facilidad de uso.</p>
+
+    <h3>Proceso</h3>
+    <p>El proyecto se desarrolló junto a seis equipos de estudiantes de la asignatura <em>“Arquitectura y Diseño de Interfaces”</em>, quienes trabajaron desde un enfoque centrado en los usuarios. El proceso contempló investigación mediante entrevistas, encuestas y análisis de métricas, además de arquitectura de información, estrategias de posicionamiento digital y criterios de accesibilidad compatibles con tecnologías de asistencia, como lectores de pantalla.</p>
+
+    <p>Las propuestas fueron presentadas mediante storytelling y prototipos interactivos en versión mobile, permitiendo evaluar y demostrar las soluciones planteadas. La contraparte institucional participó en la evaluación y entregó retroalimentación a cada equipo, considerando el contexto y las necesidades reales del Instituto.</p>
+
+    <p>La accesibilidad web fue el eje central del proyecto. Junto a Carlos Aparicio, guiamos a los estudiantes en la incorporación de criterios de accesibilidad durante todo el proceso de diseño, buscando que las propuestas respondieran a las necesidades de la comunidad del Instituto. Actualmente, el proyecto se encuentra en ejecución como parte de una iniciativa de Innovación Social de Duoc UC, reconocida como proyecto ganador de la sede Viña del Mar.</p>
+
+    <h3>Resultado</h3>
+    <p>De las seis propuestas desarrolladas, cuatro fueron preseleccionadas para continuar el proceso y dar paso al desarrollo de la propuesta definitiva. El proyecto permitió llevar el aprendizaje del aula a un desafío real, promoviendo el diseño inclusivo y la aplicación de metodologías de UX, accesibilidad y arquitectura de información.</p>
+    <p>Finalmente, el desarrollo del proyecto estuvo a cargo de Kamilo Reyes Vera y Natalia González Escobar, egresados de Diseño y Desarrollo Web de Duoc UC, sede Viña del Mar. Durante esta etapa, se realizó un monitoreo constante de los criterios de accesibilidad, con el objetivo de garantizar una experiencia útil e inclusiva para la comunidad del Instituto y posicionar el sitio como un referente de accesibilidad digital.</p>
+
+    <h3>Evidencias</h3>
+    <ul>
+      <li><a href="https://diseno.duoc.cl/ddhub/proyectos/diseno-web-accesible-instituto-antonio-vicente-mosquete/" target="_blank">Publicación en Aplica Diseño: Diseño Web Accesible Instituto Antonio Vicente Mosquete</a></li>
+      <li><a href="https://www.behance.net/gallery/230789047/Diseno-de-plataforma-web-accesible-Agencia-KIPIT" target="_blank">Behance del proyecto: Equipo Kipit</a></li>
+      <li><a href="https://www.duoc.cl/?noticia_post_type=estudiantes-de-diseno-grafico-realizan-pagina-web-accesible-para-el-instituto-antonio-vicente-mosquete" target="_blank">Publicación en Duoc UC: Estudiantes de Diseño Gráfico realizan página web accesible para el Instituto Antonio Vicente Mosquete</a></li>
+    </ul>
+  `,
   },
 ]
 
@@ -115,7 +137,7 @@ export const teaching: TeachingItem[] = [
       'Escuela de Skate Sausalito',
     ],
     tags:        ['Accesibilidad Web', 'Arquitectura y Diseño de Interfaces', 'Figma'],
-    externalUrl: 'https://www.duoc.cl/?noticia_post_type=estudiantes-de-diseno-grafico-realizan-pagina-web-accesible-para-el-instituto-antonio-vicente-mosquete',
+    //externalUrl: 'https://www.duoc.cl/?noticia_post_type=estudiantes-de-diseno-grafico-realizan-pagina-web-accesible-para-el-instituto-antonio-vicente-mosquete',
   },
   {
     title:       'Docencia e impartición de asignaturas en Educación Continua', 
@@ -133,6 +155,7 @@ export const teaching: TeachingItem[] = [
     ],
 
   },
+  /*
   {
     title:       'Evidencias de proyectos de estudiantes', 
     institution: 'Escuela de Diseño Duoc UC',
@@ -144,7 +167,7 @@ export const teaching: TeachingItem[] = [
     ),
     tags:        ['SEO', 'Accesibilidad Web', 'Arquitectura y Diseño de Interfaces', 'Prototipo Interactivo', 'Producción de Sistemas Gráficos'],
     externalUrl: 'https://behance.net/paolavelizu', 
-  },
+  },*/
   {
     title:       'Coordinación Piloto de Optativos Remotos', 
     institution: 'Escuela de Diseño Duoc UC',
