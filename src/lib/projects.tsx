@@ -5,14 +5,37 @@ import { Project, TeachingItem } from '../types/index'
 
 export const projects: Project[] = [
   {
-    slug:        'rediseno-app-salud',
-    title:       'Rediseño de app de salud',
-    description: 'Investigación, arquitectura de información y prototipado de una app para gestión de turnos médicos. Implementado en Next.js.',
-    tags:        ['UX Research', 'Figma', 'Next.js', 'TypeScript'],
-    year:        2024,
-    url:         'https://mi-proyecto.vercel.app',
-    github:      'https://github.com/tu-usuario/proyecto',
+    slug:        'fundacion-gantz',
+    title:       'Fundación Gantz',
+    description: 'Front para el sitio web de la Fundación Gantz.',
+    tags:        ['HTML', 'CSS', 'Bootstrap', 'Accesibilidad'],
+    year:        2026,
+    url:         'https://gantz.cl',
+    github:      'https://github.com/pochitax/web-gantz',
     featured:    true,
+    coverImage:  '/projects/mac-gantz.png',
+    contenido:  `
+    <h3>El problema</h3>
+    <p>Fundación Gantz necesitaba actualizar su sitio web institucional para mejorar la experiencia de sus usuarios y facilitar el acceso a información relevante sobre sus tratamientos y servicios. El desafío consistía en responder a las necesidades de distintos públicos, entre ellos pacientes, familias, profesionales y empresas que colaboran con la Fundación.</p>
+
+    <h3>Proceso</h3>
+    <p>El proyecto comenzó en 2024 como una iniciativa de Vinculación con el Medio, desarrollada junto a estudiantes de 5.º semestre de Diseño Gráfico de Duoc UC, sede Viña del Mar, en la asignatura <strong>“Arquitectura y Diseño de Interfaces”</strong>. Posteriormente, Felipe Villegas Sánchez, estudiante de Diseño Gráfico, mención Interfaces, continuó el proyecto durante su práctica profesional, investigando las necesidades de los usuarios y desarrollando una propuesta de diseño responsivo centrada en sus necesidades.</p>
+    <p>Una vez finalizada la etapa de diseño y definidas sus especificaciones, iniciamos el desarrollo del sitio. Primero implementamos el front-end utilizando HTML, CSS y JavaScript, para posteriormente integrarlo en WordPress. Este trabajo fue desarrollado en conjunto con Kamilo Reyes Vera y Natalia González Escobar, egresados de Diseño y Desarrollo Web de Duoc UC, sede Viña del Mar.</p>
+
+    <h3>Resultado</h3>
+    <p>El proyecto culminó con el desarrollo de un nuevo sitio web institucional para Fundación Gantz, transformando un proyecto académico en una solución digital concreta para una organización con impacto social. El proceso permitió conectar la formación académica con necesidades reales y demostrar cómo el diseño puede contribuir a mejorar el acceso a información y visibilizar el trabajo de una organización.</p>
+
+    <h3>Colaboradores</h3>
+    <p>Proyecto desarrollado en colaboración con estudiantes, titulados, docentes y el equipo de Marketing de la Fundación Gantz.</p>
+
+    <h3>Evidencias</h3>
+    <ul>
+      <li><a href="https://app.notion.com/p/paolaveliz/Brief-Proyecto-VcM-a9f03bcd28a446d3a46a6a9cf2ae0bc2?source=copy_link" target="_blank">Brief de Vinculación con el Medio</a></li>
+      <li><a href="https://diseno.duoc.cl/ddhub/proyectos/rediseno-sitio-web-fundacion-gantz/" target="_blank">Publicación en Aplica Diseño: Rediseño sitio web como proyecto colaborativo</a></li>
+      <li><a href="https://www.behance.net/gallery/239158417/Rediseno-de-sitio-para-Fundacion-Gantz-(En-desarrollo)" target="_blank">Behance del proyecto de Felipe Villegas</a></li>
+      <li><a href="https://diseno.duoc.cl/ddhub/proyectos/rediseno-sitio-web-fundacion-gantz-2/" target="_blank">Publicación en Aplica Diseño: Rediseño sitio web como práctica profesional</a></li>
+    </ul>
+  `,
   },
   {
     slug:        'unidos-por-una-sonrisa',

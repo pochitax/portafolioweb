@@ -136,8 +136,8 @@ hr {
 }
 .channel-link:hover { opacity: 0.6; }
 
-.footer-link { color: var(--color-accent); font-weight: bold; }
-.footer-link:hover { color: var(--color-accent); text-decoration: underline; }
+.footer-link, .prose a { color: var(--color-accent); font-weight: bold; }
+.footer-link:hover, .prose a:hover { color: var(--color-accent); text-decoration: underline; }
 
 .link-external h3 { color: var(--color-accent); font-weight: 600;}
 .link-external:hover h3 { text-decoration: underline; }
@@ -151,6 +151,9 @@ hr {
   color: var(--color-muted);
   margin-top: 2.5rem;
   margin-bottom: 1rem;
+}
+.prose ul {
+  margin-left: 2rem;
 }
 @media (max-width: 768px) {
   .responsive {
