@@ -28,13 +28,12 @@
   --color-border: #4f4f4f;
   --color-accent: #f3afbc; /*#f0d75e;*/
 
-  /*.image-top {
-    filter: brightness(500%);
-    opacity: .9;
+  .sun {
+    fill: var(--color-border);
   }
-  .color-top {
-    color: var(--color-fg)
-  }*/
+  .moon {
+    fill: var(--color-accent);
+  }
 }
 
 /* ─── Base ───────────────────────────────────────────────── */
@@ -198,4 +197,19 @@ hr {
   width: 60px;
   height: 60px;
   fill: var(--color-accent);
+}
+.sun, .moon {
+  width: 24px;
+  height: 24px;
+}
+.sun {
+  fill: var(--color-accent);
+}
+.moon {
+  fill: var(--color-border);
+}
+.mode-screen {
+  display: flex;
+  gap: .5rem;
+  padding: 0 0 0 1rem;
 }
