@@ -37,15 +37,15 @@ export default function DocenciaPage() {
 
           return (
             <Wrapper key={i}>
-              <div style={{ display: 'grid', gridTemplateColumns: '1fr 2fr', gap: '2rem', paddingBlock: '2rem', borderTop: '1px solid var(--color-border)' }}>
+              <div className='columna-responsive' style={{ display: 'grid', gridTemplateColumns: '1fr 2fr', gap: '2rem', paddingBlock: '2rem', borderTop: '1px solid var(--color-border)' }}>
                 {/* columna izquierda */}
-                <div>
+                <div className='columna-responsive'>
                   <p style={{ fontSize: '0.8125rem', color: 'var(--color-muted)', marginBottom: '0.25rem', textTransform: 'uppercase' }}>{item.period}</p>
-                  <p style={{ fontSize: '0.8125rem', color: 'var(--color-muted)' }}>{item.institution}</p>
+                  <p style={{ fontSize: '0.8125rem', color: '#666', marginBottom: '1rem', fontWeight: 'bold' }}>{item.institution}</p>
                 </div>
 
                 {/* columna derecha */}
-                <div>
+                <div className='columna-responsive'>
                   <h3 style={{ marginBottom: '1rem' }}>
                     {item.title}
                     {item.externalUrl && <span style={{ color: 'var(--color-accent)', marginLeft: '0.4rem' }}>↗</span>}

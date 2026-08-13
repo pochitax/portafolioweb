@@ -159,4 +159,7 @@ hr {
   .responsive {
     display: none;
   }
+  .columna-responsive {
+    display: block !important;
+  }
 }
