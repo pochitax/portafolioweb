@@ -21,6 +21,22 @@
   --transition:      150ms ease;
 }
 
+[data-theme='dark'] {
+  --color-bg:     #222;
+  --color-fg:     #FAFAFA;
+  --color-muted:  #bcbcbc;
+  --color-border: #4f4f4f;
+  --color-accent: #F56ECC;
+
+  .image-top {
+    filter: brightness(500%);
+    opacity: .9;
+  }
+  .color-top {
+    color: var(--color-fg)
+  }
+}
+
 /* ─── Base ───────────────────────────────────────────────── */
 *, *::before, *::after {
   box-sizing: border-box;
