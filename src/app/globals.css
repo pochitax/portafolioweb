@@ -123,7 +123,15 @@ hr {
   border-radius: var(--radius);
   transition: border-color var(--transition);
 }
-.card-link:hover { border-color: var(--color-fg); }
+.card-link img {
+  filter: grayscale(90%);
+  opacity: .8;
+}
+.card-link:hover { border-color: var(--color-accent); }
+.card-link:hover img {
+  filter: grayscale(0%);
+  opacity: 1;
+}
 
 .channel-link {
   display: grid;
