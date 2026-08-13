@@ -26,15 +26,15 @@
   --color-fg:     #FAFAFA;
   --color-muted:  #bcbcbc;
   --color-border: #4f4f4f;
-  --color-accent: #F56ECC;
+  --color-accent: #f3afbc; /*#f0d75e;*/
 
-  .image-top {
+  /*.image-top {
     filter: brightness(500%);
     opacity: .9;
   }
   .color-top {
     color: var(--color-fg)
-  }
+  }*/
 }
 
 /* ─── Base ───────────────────────────────────────────────── */
@@ -193,4 +193,9 @@ hr {
   .columna-responsive {
     display: block !important;
   }
+}
+.image-top {
+  width: 60px;
+  height: 60px;
+  fill: var(--color-accent);
 }
