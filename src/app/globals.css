@@ -192,6 +192,9 @@ hr {
   .columna-responsive {
     display: block !important;
   }
+  .section {
+    padding-block: 3rem;
+  }
 }
 .image-top {
   width: 60px;
@@ -212,4 +215,13 @@ hr {
   display: flex;
   gap: .5rem;
   padding: 0 0 0 1rem;
+}
+
+.nav-desktop { display: flex; }
+.nav-mobile  { display: none; }
+
+@media (max-width: 768px) {
+  .nav-desktop { display: none; }
+  .nav-mobile  { display: block; }
+  .responsive  { display: none; }
 }
