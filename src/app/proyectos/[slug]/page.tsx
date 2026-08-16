@@ -66,7 +66,7 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ slug
         <div style={{ display: 'flex', gap: '1rem', marginTop: '1.5rem' }}>
           {url && (
             <a href={url} target="_blank" rel="noopener noreferrer" className="btn-primary">
-              Ver sitio ↗
+              {project.urlLabel ?? 'Ver sitio'} ↗
             </a>
           )}
           {github && (

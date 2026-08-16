@@ -8,6 +8,7 @@ export type Project = {
   tags:        string[]
   year:        number
   url?:        string
+  urlLabel?:   string
   github?:     string
   featured:    boolean
   coverImage?:  string

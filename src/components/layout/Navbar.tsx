@@ -4,9 +4,6 @@ import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { useTheme } from 'next-themes'
 import { useEffect, useState } from 'react'
-import Image from 'next/image'
-
-
 
 const links = [
   { href: '/proyectos', label: 'Proyectos' },
@@ -18,7 +15,6 @@ export default function Navbar() {
   const pathname            = usePathname()
   const { theme, setTheme } = useTheme()
   const [mounted, setMounted] = useState(false)
-
   const [open, setOpen] = useState(false)
 
 // Cerrar al cambiar página

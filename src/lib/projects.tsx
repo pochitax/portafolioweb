@@ -4,6 +4,29 @@ import { Project, TeachingItem } from '../types/index'
 
 export const projects: Project[] = [
   {
+    slug:        'portafolio-personal',
+    title:       'Portafolio web personal',
+    description: 'Vitrina para la muestra de proyectos personales',
+    tags:        ['Typescript', 'CSS', 'React', 'Vercel'],
+    year:        2026,
+    url:         'https://paolaveliz.cl',
+    github:      'https://github.com/pochitax/portafolioweb',
+    featured:    false,
+    coverImage:  '/projects/yo-flor.png',
+    contenido:  `
+    <h3>El problema</h3>
+    <p>Necesitaba reunir en un solo espacio mi experiencia, conocimientos y distintas áreas de trabajo, construyendo un sitio que no solo presentara mi trayectoria, sino que también demostrara mis capacidades aplicadas al diseño y desarrollo web.</p>
+
+    <h3>Proceso</h3>
+    <p>El desarrollo del sitio partió desde mi propia trayectoria profesional y de la necesidad de integrar en una misma experiencia mis áreas de especialización: UX, diseño, desarrollo frontend y docencia. Utilicé TypeScript como parte del desarrollo para poner en práctica y profundizar mis conocimientos técnicos.</p>
+
+    <p>La identidad visual incorpora elementos que forman parte de mi manera de expresarme y trabajar, como el color fucsia y la tipografía Inter, presentes también en mis presentaciones. El unicornio rosa representa una dimensión más personal de mi identidad y mi faceta de madre, mientras que la diversidad de contenidos y secciones refleja la multiplicidad de áreas que he desarrollado y aprendido a lo largo de mi carrera.</p>
+
+    <h3>Resultado</h3>
+    <p>Un sitio limpio y personal que reúne mi trayectoria, proyectos, experiencia docente y conocimientos, y que al mismo tiempo funciona como una demostración concreta de mis capacidades de diseño y desarrollo web. El resultado busca conectar mi identidad profesional y personal en una experiencia digital coherente conmigo.</p>
+  `,
+  },
+  {
     slug:        'fundacion-gantz',
     title:       'Fundación Gantz',
     description: 'De la docencia al desarrollo: Front para el sitio web de la Fundación Gantz.',
@@ -87,6 +110,127 @@ export const projects: Project[] = [
       <li><a href="https://www.behance.net/gallery/230789047/Diseno-de-plataforma-web-accesible-Agencia-KIPIT" target="_blank">Behance del proyecto: Equipo Kipit</a></li>
       <li><a href="https://www.duoc.cl/?noticia_post_type=estudiantes-de-diseno-grafico-realizan-pagina-web-accesible-para-el-instituto-antonio-vicente-mosquete" target="_blank">Publicación en Duoc UC: Estudiantes de Diseño Gráfico realizan página web accesible para el Instituto Antonio Vicente Mosquete</a></li>
     </ul>
+  `,
+  },
+  {
+    slug:        'diseno-ddhub',
+    title:       'Diseño para el Sitio DDHub de la Escuela de Diseño Duoc UC',
+    description: '',
+    tags:        ['UX', 'UI', 'Mapa de navegación', 'Figma', 'Design System'],
+    year:        2026,
+    url:         'https://diseno.duoc.cl/ddhub/',
+    featured:    true,
+    coverImage:  '/projects/ddhub.png',
+    contenido:  `
+    <h3>El problema</h3>
+    <p>Durante 2025, el sitio web de la Fundación Gantz presentaba intermitencias en el servicio de hosting, generando caídas recurrentes, especialmente durante períodos de mayor flujo de visitas. Esta situación era crítica para la Fundación, ya que durante el año existen períodos de alta demanda asociados a campañas de donaciones y colectas. Como solución, se decidió externalizar la campaña de colecta mediante un nuevo dominio y una landing page, con el objetivo de distribuir el flujo y reducir las interrupciones del servicio.</p>
+
+    <h3>Proceso</h3>
+    <p>El diseño de la landing page fue desarrollado por la <a target="_blank" href="https://redon.cl/index.php">Agencia Redon</a>. Me encargué de adaptar la propuesta visual a HTML y CSS, implementando su versión responsive y resolviendo los distintos puntos de quiebre para asegurar una correcta visualización en diferentes dispositivos. Actualmente, estoy a cargo de la actualización y monitoreo del sitio.</p>
+
+    <h3>Resultado</h3>
+    <p>La landing page se mantiene estable y operativa, sin presentar nuevas interrupciones del servicio durante los períodos de mayor flujo de visitas.</p>
+  `,
+  },
+  {
+    slug:        'mantencion-sitios-escuela',
+    title:       'Mantención de sitios de Escuela de Diseño Duoc UC',
+    description: '',
+    tags:        ['HTML', 'CSS', 'Javascript', 'Wordpress'],
+    year:        2026,
+    url:         '',
+    featured:    true,
+    coverImage:  '/projects/mantencion.png',
+    contenido:  `
+    <h3>El problema</h3>
+    <p>Durante 2025, el sitio web de la Fundación Gantz presentaba intermitencias en el servicio de hosting, generando caídas recurrentes, especialmente durante períodos de mayor flujo de visitas. Esta situación era crítica para la Fundación, ya que durante el año existen períodos de alta demanda asociados a campañas de donaciones y colectas. Como solución, se decidió externalizar la campaña de colecta mediante un nuevo dominio y una landing page, con el objetivo de distribuir el flujo y reducir las interrupciones del servicio.</p>
+
+    <h3>Proceso</h3>
+    <p>El diseño de la landing page fue desarrollado por la <a target="_blank" href="https://redon.cl/index.php">Agencia Redon</a>. Me encargué de adaptar la propuesta visual a HTML y CSS, implementando su versión responsive y resolviendo los distintos puntos de quiebre para asegurar una correcta visualización en diferentes dispositivos. Actualmente, estoy a cargo de la actualización y monitoreo del sitio.</p>
+
+    <h3>Resultado</h3>
+    <p>La landing page se mantiene estable y operativa, sin presentar nuevas interrupciones del servicio durante los períodos de mayor flujo de visitas.</p>
+  `,
+  },
+  {
+    slug:        'evaluacion-accesibilidad-rutas-formativas',
+    title:       'Evaluación de accesibilidad web',
+    description: 'Proyecto académico de análisis de accesibilidad en el sitio de Rutas Formativas, Escuela de Diseño Duoc UC',
+    tags:        ['Accesibilidad', 'Easy check', 'Investigación'],
+    year:        2023,
+    url:         'https://paolaveliz.notion.site/Evaluaci-n-de-accesibilidad-para-el-Sitio-de-Rutas-Formativas-de-la-Escuela-de-Dise-o-Duoc-UC-84246c8dca69466bb95cc687306ff38c?source=copy_link',
+    urlLabel:     'Ver auditoría completa',
+    featured:    false,
+    coverImage:  '/projects/accesibilidad.png',
+    contenido:  `
+    <div class="card-link">
+    <strong>Análisis del Sitio Rutas Formativas de la Escuela de Diseño Duoc UC</strong>
+    <p>Evaluación de accesibilidad web como trabajo académico para el <em>Curso Práctico de Accesibilidad Web y Diseño Inclusivo</em> de la Universidad del Desarrollo, dictado entre el 26 de Julio de 2023 y el 6 de Septiembre de 2023, con una duración de 25 horas cronológicas.</p>
+    <br>
+    <strong>Rol:</strong> Evaluación y análisis de accesibilidad
+    <br>
+    <strong>Metodología:</strong> WCAG 2.1 · Evaluación automatizada · Revisión manual
+    <br>
+    <strong>Herramientas:</strong> WAVE · Heading Maps · Taba11y · Landmarks Navigation
+    </div>
+    <h3>El problema</h3>
+    <p>El sitio web de Rutas Formativas de la Escuela de Diseño Duoc UC requería una evaluación de accesibilidad para identificar barreras de navegación y acceso a sus contenidos, considerando los criterios de las WCAG 2.1.</p>
+
+    <h3>Proceso</h3>
+    <p>Realicé una evaluación combinando herramientas automatizadas y revisión manual del código. Se analizaron aspectos como navegación mediante teclado, estructura semántica, encabezados, contraste, textos alternativos, foco de los enlaces y landmarks. Para ello utilicé herramientas como WAVE, Heading Maps, Taba11y y Landmarks Navigation.</p>
+
+    <p>La revisión permitió identificar fortalezas y oportunidades de mejora, generando recomendaciones específicas para optimizar la estructura de contenidos, navegación, contraste y elementos accesibles como acordeones y regiones semánticas.</p>
+
+    <h3>Resultado</h3>
+    <p>La evaluación permitió establecer el nivel de conformidad del sitio respecto de las WCAG 2.1 y definir acciones prioritarias para mejorar su accesibilidad. Además, se establecieron criterios y herramientas para realizar un monitoreo continuo y mantener buenas prácticas de accesibilidad durante la evolución del sitio.</p>
+  `,
+  },
+  {
+    slug:        'front-miramas',
+    title:       'Front para Mira+',
+    description: 'Proyecto Sede Viña del Mar Duoc UC',
+    tags:        ['HTML', 'CSS', 'Javascript'],
+    year:        2021,
+    url:         'https://pochitax.github.io/front-cursos-sede-vina-duoc/front/',
+    urlLabel:     'Ver front del sitio',
+    github:       'https://github.com/pochitax/front-cursos-sede-vina-duoc',
+    featured:    false,
+    coverImage:  '/projects/cursos-cortos.png',
+    contenido:  `
+    <h3>El problema</h3>
+    <p>El sitio web de Rutas Formativas de la Escuela de Diseño Duoc UC requería una evaluación de accesibilidad para identificar barreras de navegación y acceso a sus contenidos, considerando los criterios de las WCAG 2.1.</p>
+
+    <h3>Proceso</h3>
+    <p>Realicé una evaluación combinando herramientas automatizadas y revisión manual del código. Se analizaron aspectos como navegación mediante teclado, estructura semántica, encabezados, contraste, textos alternativos, foco de los enlaces y landmarks. Para ello utilicé herramientas como WAVE, Heading Maps, Taba11y y Landmarks Navigation.</p>
+
+    <p>La revisión permitió identificar fortalezas y oportunidades de mejora, generando recomendaciones específicas para optimizar la estructura de contenidos, navegación, contraste y elementos accesibles como acordeones y regiones semánticas.</p>
+
+    <h3>Resultado</h3>
+    <p>La evaluación permitió establecer el nivel de conformidad del sitio respecto de las WCAG 2.1 y definir acciones prioritarias para mejorar su accesibilidad. Además, se establecieron criterios y herramientas para realizar un monitoreo continuo y mantener buenas prácticas de accesibilidad durante la evolución del sitio.</p>
+  `,
+  },
+  {
+    slug:        'front-cursos-cortos',
+    title:       'Front para Cursos Cortos',
+    description: 'Proyecto Sede Viña del Mar Duoc UC',
+    tags:        ['HTML', 'CSS', 'Javascript'],
+    year:        2020,
+    url:         'https://pochitax.github.io/front-cursos-sede-vina-duoc/front/',
+    urlLabel:     'Ver front del sitio',
+    github:       'https://github.com/pochitax/front-cursos-sede-vina-duoc',
+    featured:    true,
+    coverImage:  '/projects/cursos-cortos.png',
+    contenido:  `
+    <h3>El problema</h3>
+    <p>El sitio web de Rutas Formativas de la Escuela de Diseño Duoc UC requería una evaluación de accesibilidad para identificar barreras de navegación y acceso a sus contenidos, considerando los criterios de las WCAG 2.1.</p>
+
+    <h3>Proceso</h3>
+    <p>Realicé una evaluación combinando herramientas automatizadas y revisión manual del código. Se analizaron aspectos como navegación mediante teclado, estructura semántica, encabezados, contraste, textos alternativos, foco de los enlaces y landmarks. Para ello utilicé herramientas como WAVE, Heading Maps, Taba11y y Landmarks Navigation.</p>
+
+    <p>La revisión permitió identificar fortalezas y oportunidades de mejora, generando recomendaciones específicas para optimizar la estructura de contenidos, navegación, contraste y elementos accesibles como acordeones y regiones semánticas.</p>
+
+    <h3>Resultado</h3>
+    <p>La evaluación permitió establecer el nivel de conformidad del sitio respecto de las WCAG 2.1 y definir acciones prioritarias para mejorar su accesibilidad. Además, se establecieron criterios y herramientas para realizar un monitoreo continuo y mantener buenas prácticas de accesibilidad durante la evolución del sitio.</p>
   `,
   },
 ]
