@@ -357,7 +357,102 @@ export const teaching: TeachingItem[] = [
 
 export const experiments: Experiment[] = [
   {
+    slug:        'hola-3d',
+    coverImage:  '/projects/spline.png',
+    title:       '3D con Spline',
+    description: 'Prueba de elementos 3D con Spline.',
+    tags:        ['Spline', '3D', 'SVG'],
+    year:        2025,
+    featured:    true,
+    embeds: [
+      {
+        url:   'https://my.spline.design/testcopy-DVxPpwBNoSbecUW20TrrHOkI/',
+        label: 'Ver en Spline - Modo claro',
+      },
+      {
+        url:   'https://my.spline.design/starterscenecopy-UA9oIQYc82bQ5AIpF86YSo4o/',
+        label: 'Ver en Spline - Modo oscuro',
+      },
+    ],
+  },
+  {
+    slug:        'cartas-animadas',
+    coverImage:  'https://shots.codepen.io/username/pen/LYwyLKB-1280.jpg',
+    title:       'Cartas animadas con CSS',
+    description: 'Animaciones y transiciones sólo con estilos. Se toma una imagen de referencia de la web para codificar.',
+    tags:        ['HTML', 'CSS'],
+    year:        2024,
+    featured:    true,
+    embeds: [
+      {
+        url:   'https://codepen.io/pochitax/embed/LYwyLKB?default-tab=html%2Cresult',
+        label: 'Ver en CodePen',
+      },
+    ],
+  },
+  {
+    slug:        'listado-dinamico',
+    coverImage:  'https://shots.codepen.io/username/pen/poqRvpd-1280.jpg',
+    title:       'Listado dinámicos de objetos JS',
+    description: 'Objetos de Javascript con Tailwind.',
+    tags:        ['HTML', 'CSS', 'Javascript', 'Tailwind'],
+    year:        2023,
+    featured:    true,
+    embeds: [
+      {
+        url:   'https://codepen.io/pochitax/embed/poqRvpd?default-tab=html%2Cresult',
+        label: 'Ver en CodePen',
+      },
+    ],
+  },
+  {
+    slug:        'semaforo',
+    coverImage:  '/projects/semaforo.png',
+    title:       'Semáforo en React',
+    description: 'Experimento con React y CSS.',
+    tags:        ['React', 'CSS'],
+    year:        2022,
+    featured:    true,
+    embeds: [
+      {
+        url:   'https://codesandbox.io/embed/5rkg3?view=preview&module=%2Fpublic%2Findex.html&hidenavigation=1',
+        label: 'Ver en Sandbox',
+      },
+    ],
+  },
+  {
+    slug:        'procesador-ordenes',
+    coverImage:  '/projects/procesador.png',
+    title:       'Procesador de órdenes en React',
+    description: 'Experimento con React y CSS.',
+    tags:        ['React', 'CSS'],
+    year:        2022,
+    featured:    true,
+    embeds: [
+      {
+        url:   'https://codesandbox.io/embed/tud0l?view=preview&module=%2Fsrc%2FApp.js&hidenavigation=1',
+        label: 'Ver en Sandbox',
+      },
+    ],
+  },
+  {
+    slug:        'titulo-dinamico',
+    coverImage:  'https://shots.codepen.io/username/pen/vYroGWE-1280.jpg',
+    title:       'Efecto máquina de escribir con Scene.js y CSS',
+    description: 'Experimento con Javascript y CSS.',
+    tags:        ['HTML', 'CSS', 'Javascript'],
+    year:        2022,
+    featured:    true,
+    embeds: [
+      {
+        url:   'https://codepen.io/pochitax/embed/vYroGWE?default-tab=html%2Cresult',
+        label: 'Ver en CodePen',
+      },
+    ],
+  },
+  {
     slug:        'tarjeta-credito',
+    coverImage:  'https://shots.codepen.io/username/pen/jOwewEZ-1280.jpg',
     title:       'Tarjeta de crédito con CSS',
     description: 'Experimento con CSS.',
     tags:        ['HTML', 'CSS'],

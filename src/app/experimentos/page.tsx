@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
 import { experiments } from '@/lib/projects'
+import Image from 'next/image'
 
 export const metadata: Metadata = {
   title: 'Experimentos — Paola Véliz',
@@ -27,6 +28,46 @@ export default function ExperimentosPage() {
             href={`/experimentos/${exp.slug}`}
             className="card-link"
           >
+            
+            {exp.coverEmbed && (
+              <div style={{
+                marginBottom: '1.25rem',
+                borderRadius: 'var(--radius)',
+                overflow:     'hidden',
+                aspectRatio:  '16/9',
+                pointerEvents: 'none',  // ← evita que sea clickeable dentro de la card
+              }}>
+                <iframe
+                  src={exp.coverEmbed}
+                  style={{
+                    width:      '100%',
+                    height:     '100%',
+                    border:     'none',
+                    transform:  'scale(1)',
+                  }}
+                  loading="lazy"
+                  tabIndex={-1}
+                />
+              </div>
+            )}
+
+            {!exp.coverEmbed && exp.coverImage && exp.coverImage.trim() !== '' && (
+              <div style={{
+                marginBottom: '1.25rem',
+                borderRadius: 'var(--radius)',
+                overflow:     'hidden',
+                aspectRatio:  '16/9',
+              }}>
+                <Image
+                  src={exp.coverImage}
+                  alt={exp.title}
+                  width={800}
+                  height={450}
+                  style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                />
+              </div>
+            )}
+
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '0.75rem' }}>
               <h3 style={{ fontSize: '1rem', fontWeight: 500 }}>{exp.title}</h3>
               <span style={{ color: 'var(--color-muted)', fontSize: '0.8125rem' }}>{exp.year}</span>

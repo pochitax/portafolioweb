@@ -34,4 +34,6 @@ export type Experiment = {
   embeds?:     { url: string; label?: string }[]
   contenido?:  string
   featured?:   boolean
+  coverEmbed?: string 
+  coverImage?:  string
 }
