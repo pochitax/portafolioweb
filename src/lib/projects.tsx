@@ -282,6 +282,17 @@ export const teaching: TeachingItem[] = [
     tags:        ['Accesibilidad Web', 'Arquitectura y Diseño de Interfaces', 'Figma'],
   },
   {
+    title:       'Asesoría en Wordpress y Elementor', 
+    institution: 'Artequín Viña',
+    period:      '2026',
+    description: (
+      <>
+       Asesoría técnica en Wordpress, manejo de plugins (Elementor), entradas y páginas para el equipo de Diseño del Museo Artequín Viña del Mar.
+      </>
+    ),
+    tags:        ['Wordpress', 'Elementor'],
+  },
+  {
     title:       'Docencia e impartición de asignaturas en Educación Continua', 
     institution: 'Educación Continua Duoc UC',
     period:      '2020 - 2024',
@@ -347,6 +358,16 @@ export const teaching: TeachingItem[] = [
     description: (
       <>
        Apoyo docente en la generación de contenidos y guía en procesos académicos para estudiantes de las carreras de Diseño Gráfico y Desarrollo Web en plataformas como <strong><a href='https://craed.cl/custom-login/?redirect_to=https%3A%2F%2Fcraed.cl%2F'>Craed</a></strong>, <strong><a href='https://www.youtube.com/watch?v=jsXrT6Bep80'>Youtube</a></strong> y <strong><a href='https://github.com/ddwduocvina?tab=repositories'>Github</a></strong>.
+      </>
+    ),
+  },
+  {
+    title:       'Relatora Programa SIGO', 
+    institution: 'SIGO Turismo Tecnología',
+    period:      '2020 - 2021',
+    description: (
+      <>
+       Asistencia técnica en herramientas digitales para emprendedores de turismo del Programa SIGO Turismo Tecnología de Tu Clase, tu País.
       </>
     ),
   },
@@ -480,6 +501,21 @@ export const experiments: Experiment[] = [
       {
         url:   'https://codepen.io/pochitax/embed/jOwewEZ?default-tab=result',
         label: 'Ver en CodePen',
+      },
+    ],
+  },
+  {
+    slug:        'javascript-desde-cero',
+    coverImage:  '/projects/youtube.jpg',
+    title:       'Javascript desde cero',
+    description: 'Playlist de Youtube con videos explicativos de Javascript.',
+    tags:        ['Javascript'],
+    year:        2021,
+    featured:    true,
+    embeds: [
+      {
+        url:   'https://www.youtube.com/embed/videoseries?si=OoVuzwTVY3n-fpHz&amp;list=PLJFagg9GTPmRt4wuCFb3TaVR8cTZrCyzM',
+        label: 'Ver playlist en Youtube',
       },
     ],
   },
