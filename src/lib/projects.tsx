@@ -280,7 +280,6 @@ export const teaching: TeachingItem[] = [
       'Escuela de Skate Sausalito',
     ],
     tags:        ['Accesibilidad Web', 'Arquitectura y Diseño de Interfaces', 'Figma'],
-    //externalUrl: 'https://www.duoc.cl/?noticia_post_type=estudiantes-de-diseno-grafico-realizan-pagina-web-accesible-para-el-instituto-antonio-vicente-mosquete',
   },
   {
     title:       'Docencia e impartición de asignaturas en Educación Continua', 
@@ -356,6 +355,25 @@ export const teaching: TeachingItem[] = [
 /* ─── Experimentos ───────────────────────────────────────────── */
 
 export const experiments: Experiment[] = [
+  {
+    slug:        'figma-css',
+    coverImage:  '/projects/specs.png',
+    title:       'De specs de Figma a código',
+    description: 'Ejemplo básico de cómo un diseño con especificaciones se traduce a HTML y CSS.',
+    tags:        ['Figma', 'Specs', 'HTML', 'CSS'],
+    year:        2025,
+    featured:    true,
+    embeds: [
+      {
+        url:   'https://embed.figma.com/design/BCp2b8TWqyWpPLlRTusgRP/Variantes-specs?node-id=1-380&embed-host=share',
+        label: 'Ver en Figma',
+      },
+      {
+        url:   'https://codepen.io/pochitax/embed/bNpVGGB?default-tab=result',
+        label: 'Ver código en Codepen',
+      },
+    ],
+  },
   {
     slug:        'hola-3d',
     coverImage:  '/projects/spline.png',

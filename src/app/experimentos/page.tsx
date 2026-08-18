@@ -13,7 +13,7 @@ export default function ExperimentosPage() {
       <div style={{ marginBottom: '3rem' }}>
         <h1 style={{ marginBottom: '0.75rem' }}>Experimentos</h1>
         <p style={{ color: 'var(--color-muted)', fontSize: '1rem' }}>
-          Exploraciones técnicas, pruebas de concepto y prototipos interactivos.
+          Exploraciones técnicas, pruebas de código y prototipos interactivos.
         </p>
       </div>
 

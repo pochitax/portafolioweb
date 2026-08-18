@@ -59,7 +59,7 @@ export default function Navbar() {
               <li key={href}>
                 <Link
                     href={href}
-                    className={`nav-link ${pathname === href ? 'active' : ''}`}
+                    className={`nav-link ${pathname.startsWith(href) ? 'active' : ''}`}
                   >
                   {label}
                 </Link>
