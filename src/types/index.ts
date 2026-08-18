@@ -24,3 +24,14 @@ export type TeachingItem = {
   tags?:         string[]
   externalUrl?: string   // ← nuevo
 }
+
+export type Experiment = {
+  slug:        string
+  title:       string
+  description: string
+  tags?:       string[]
+  year:        number
+  embeds?:     { url: string; label?: string }[]
+  contenido?:  string
+  featured?:   boolean
+}

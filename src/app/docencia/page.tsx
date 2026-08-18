@@ -37,7 +37,7 @@ export default function DocenciaPage() {
 
           return (
             <Wrapper key={i}>
-              <div className='columna-responsive' style={{ display: 'grid', gridTemplateColumns: '1fr 2fr', gap: '2rem', paddingBlock: '2rem', borderTop: '1px solid var(--color-border)' }}>
+              <div className='columna-responsive' style={{ display: 'grid', gridTemplateColumns: '1fr 4fr', gap: '2rem', paddingBlock: '2rem', borderTop: '1px solid var(--color-border)' }}>
                 {/* columna izquierda */}
                 <div className='columna-responsive'>
                   <p style={{ fontSize: '0.8125rem', color: 'var(--color-muted)', marginBottom: '0.25rem', textTransform: 'uppercase' }}>{item.period}</p>

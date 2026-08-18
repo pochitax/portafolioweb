@@ -1,4 +1,4 @@
-import { Project, TeachingItem } from '../types/index'
+import { Project, TeachingItem, Experiment } from '../types/index'
 
 /* ─── Proyectos ──────────────────────────────────────────── */
 
@@ -195,7 +195,7 @@ export const projects: Project[] = [
     urlLabel:     'Ver front del sitio',
     github:       'https://github.com/pochitax/front-cursos-sede-vina-duoc',
     featured:    false,
-    coverImage:  '/projects/cursos-cortos.png',
+    coverImage:  '/projects/miramas.png',
     contenido:  `
     <h3>El problema</h3>
     <p>El sitio web de Rutas Formativas de la Escuela de Diseño Duoc UC requería una evaluación de accesibilidad para identificar barreras de navegación y acceso a sus contenidos, considerando los criterios de las WCAG 2.1.</p>
@@ -350,5 +350,24 @@ export const teaching: TeachingItem[] = [
        Apoyo docente en la generación de contenidos y guía en procesos académicos para estudiantes de las carreras de Diseño Gráfico y Desarrollo Web en plataformas como <strong><a href='https://craed.cl/custom-login/?redirect_to=https%3A%2F%2Fcraed.cl%2F'>Craed</a></strong>, <strong><a href='https://www.youtube.com/watch?v=jsXrT6Bep80'>Youtube</a></strong> y <strong><a href='https://github.com/ddwduocvina?tab=repositories'>Github</a></strong>.
       </>
     ),
+  },
+]
+
+/* ─── Experimentos ───────────────────────────────────────────── */
+
+export const experiments: Experiment[] = [
+  {
+    slug:        'tarjeta-credito',
+    title:       'Tarjeta de crédito con CSS',
+    description: 'Experimento con CSS.',
+    tags:        ['HTML', 'CSS'],
+    year:        2021,
+    featured:    true,
+    embeds: [
+      {
+        url:   'https://codepen.io/pochitax/embed/jOwewEZ?default-tab=result',
+        label: 'Ver en CodePen',
+      },
+    ],
   },
 ]

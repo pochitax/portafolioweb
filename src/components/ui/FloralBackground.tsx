@@ -41,7 +41,7 @@ export default function FloralBackground() {
         bottom:        '-10%',
         width:         '55%',
         maxWidth:      '900px',
-        opacity:       0.15,
+        opacity:       0.25,
         pointerEvents: 'none',
         zIndex:        0,
       }}

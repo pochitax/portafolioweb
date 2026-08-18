@@ -7,6 +7,7 @@ import { useEffect, useState } from 'react'
 
 const links = [
   { href: '/proyectos', label: 'Proyectos' },
+  { href: '/experimentos', label: 'Experimentos' },
   { href: '/docencia',  label: 'Docencia'  },
   { href: '/contacto',  label: 'Contacto'  },
 ]
@@ -56,7 +57,10 @@ export default function Navbar() {
           <ul style={{ display: 'flex', gap: '2rem', listStyle: 'none', fontSize: '0.875rem' }}>
             {links.map(({ href, label }) => (
               <li key={href}>
-                <Link href={href} style={{ color: pathname === href ? 'var(--color-fg)' : 'var(--color-muted)', transition: 'color var(--transition)' }}>
+                <Link
+                    href={href}
+                    className={`nav-link ${pathname === href ? 'active' : ''}`}
+                  >
                   {label}
                 </Link>
               </li>

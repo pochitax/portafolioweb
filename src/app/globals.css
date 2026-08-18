@@ -225,3 +225,7 @@ hr {
   .nav-mobile  { display: block; }
   .responsive  { display: none; }
 }
+
+.nav-link { color: var(--color-muted); transition: color var(--transition); }
+.nav-link:hover { color: var(--color-fg); }
+.nav-link.active { color: var(--color-accent); font-weight: bold; }
