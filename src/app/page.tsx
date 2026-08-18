@@ -54,9 +54,9 @@ export default function Home() {
 
           {/* CTAs */}
           <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
-            <Link href="/proyectos" className="btn-primary">Ver proyectos</Link>
-            <Link href="/docencia"  className="btn-secondary">Docencia</Link>
-            <Link href="/contacto"  className="btn-secondary">Contacto</Link>
+            <Link href="/proyectos" className="btn-primary">Proyectos en los que he participado</Link>
+            {/* <Link href="/docencia"  className="btn-secondary">Docencia</Link>
+            <Link href="/contacto"  className="btn-secondary">Contacto</Link> */}
           </div>
         </div>
         

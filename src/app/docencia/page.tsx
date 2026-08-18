@@ -14,7 +14,7 @@ export default function DocenciaPage() {
         <p style={{ color: 'var(--color-muted)', lineHeight: 1.7, maxWidth: '80%', marginBottom: '0.75rem' }}>
           <strong>Enseño UX y desarrollo web desde la práctica, conectando investigación, diseño y tecnología</strong>. Creo que entender el proceso completo cambia la forma de diseñar, construir y aprender. <strong>He impartido asignaturas en las áreas de Diseño Gráfico, UX e Interacción, Desarrollo Web y Accesibilidad</strong>, acompañando a estudiantes en distintas etapas de su formación, desde los fundamentos del diseño y la creación de sistemas gráficos hasta el desarrollo de proyectos digitales y la construcción de portafolios profesionales.
         </p>
-        <p style={{ color: 'var(--color-muted)', lineHeight: 1.7, maxWidth: '80%' }}>Aquí comparto proyectos, certificaciones y experiencias que forman parte de este recorrido.</p>
+        <p style={{ color: 'var(--color-muted)', lineHeight: 1.7, maxWidth: '80%' }}>Aquí comparto proyectos, <a href='https://drive.google.com/drive/folders/1PqXYl2JcU3XDW4-qsj-GjQSrGseIyu0Z?usp=drive_link' className="footer-link" target='_blank'>certificaciones</a> y experiencias que forman parte de este recorrido.</p>
       </div>
 
       {/* Lista de cursos */}
