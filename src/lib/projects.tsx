@@ -152,6 +152,28 @@ export const projects: Project[] = [
     <p>La landing page se mantiene estable y operativa, sin presentar nuevas interrupciones del servicio durante los períodos de mayor flujo de visitas.</p>
   `,
   },
+    {
+    slug:        'behance-docencia-escuela',
+    title:       'Del aula al portafolio',
+    description: 'Evidencias de aprendizaje y proyectos de estudiantes en Behance · 2024–2026',
+    tags:        ['UI', 'UX', 'Figma', 'SEO', 'Accesibilidad'],
+    year:        2024,
+    url:         'https://www.behance.net/paolavelizu/moodboards',
+    urlLabel:     'Ver proyectos en Behance',
+    featured:    false,
+    coverImage:  '/projects/behance.png',
+    contenido:  `
+    <h3>Behance de proyectos académicos</h3>
+    <p>Este repositorio permite visualizar cómo el trabajo desarrollado en el aula se transforma en evidencia profesional, acompañando a los estudiantes en la documentación y presentación de sus procesos de diseño para enfrentar posteriormente contextos académicos y laborales.</p>
+    <h3>La construcción de un portafolio profesional</h3>
+    <p>Los estudiantes necesitan contar con evidencias concretas que permitan demostrar los conocimientos, procesos y competencias desarrolladas durante su formación. A partir de esta necesidad la Escuela plantea que debe existir un registro de evidencias en Behance, surge la recopilación de trabajos realizados en distintas asignaturas, con el propósito de documentar no solo las soluciones finales, sino también el proceso que existe detrás de cada proyecto.</p>
+
+    <h3>La solución</h3>
+    <p>El repositorio de evidencias en Behance reúne trabajos realizados por estudiantes entre 2024 y 2026 en las asignaturas <em>Prototipo Interactivo, Arquitectura y Diseño de Interfaces, Accesibilidad Web, SEO y Posicionamiento Web, Portafolio de Título y Producción de Sistemas Gráficos</em>.</p>
+
+    <p>Cada proyecto permite visualizar el proceso de aprendizaje desarrollado durante la asignatura, incorporando conceptualización, investigación, análisis de usuarios y referentes, definición de problemáticas y desarrollo de soluciones gráficas, análogas o digitales. Los estudiantes materializan este proceso en un lienzo de Behance que posteriormente pueden utilizar como evidencia de sus habilidades y competencias profesionales.</p>
+  `,
+  },
   {
     slug:        'evaluacion-accesibilidad-rutas-formativas',
     title:       'Evaluación de accesibilidad web',
@@ -308,19 +330,16 @@ export const teaching: TeachingItem[] = [
     ],
 
   },
-  /*
   {
-    title:       'Evidencias de proyectos de estudiantes', 
+    title:       'Coordinación de Rutas Formativas', 
     institution: 'Escuela de Diseño Duoc UC',
-    period:      '2024 a la fecha',
+    period:      '2024 - 2026',
     description: (
       <>
-       <strong>Registros de trabajos de estudiantes en Behance</strong> de asignaturas de las carreras de Diseño Gráfico mención Interefaces e Interacciones y Desarrollo y Diseño Web a partir de los años 2024 hasta la actualidad.
+       Participación en la coordinación y mantención del sitio de Rutas Formativas de la Escuela de Diseño, orientado a descubrir las distintas rutas de formación de la Escuela de Diseño que incluyen las distintas salidas según carrera y sus asignaturas disciplinares y optativas.
       </>
     ),
-    tags:        ['SEO', 'Accesibilidad Web', 'Arquitectura y Diseño de Interfaces', 'Prototipo Interactivo', 'Producción de Sistemas Gráficos'],
-    externalUrl: 'https://behance.net/paolavelizu', 
-  },*/
+  },
   {
     title:       'Coordinación Piloto de Optativos Remotos', 
     institution: 'Escuela de Diseño Duoc UC',
