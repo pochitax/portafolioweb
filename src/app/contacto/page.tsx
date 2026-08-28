@@ -23,6 +23,18 @@ const channels = [
     href: 'https://github.com/pochitax',
     description: 'Código, repositorios y contribuciones.',
   },
+  {
+    label: 'Curriculum',
+    value: 'drive.google.com',
+    href: 'https://drive.google.com/file/d/1XCz5KGewMNSFWTUoX_zq9e4NufBK1UqC/view?usp=sharing',
+    description: 'Curriculum profesional y proyectos',
+  },
+  {
+    label: 'Docencia',
+    value: 'drive.google.com',
+    href: 'https://drive.google.com/file/d/1jvOzswpzRrQrDQUTKIqkm0ynfe7I478w/view?usp=sharing',
+    description: 'Postulación a categorización docente',
+  },
 ]
 
 export default function ContactoPage() {
@@ -37,8 +49,8 @@ export default function ContactoPage() {
             LinkedIn
           </a>{' '}
           o descargar mi {' '}
-          <a href="#" target="_blank" rel="noopener noreferrer" className="footer-link">
-            CV
+          <a href="https://drive.google.com/file/d/1XCz5KGewMNSFWTUoX_zq9e4NufBK1UqC/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="footer-link">
+            Curriculum Vitae
           </a>.
         </p>
       </div>
