@@ -8,7 +8,7 @@ const channels = [
   {
     label: 'Email',
     value: 'paola.veliz@gmail.com',
-    href: 'mailto:hola@gmail.com',
+    href: 'mailto:paola.veliz@gmail.com',
     description: 'Proyectos, colaboraciones o consultas generales.',
   },
   {
