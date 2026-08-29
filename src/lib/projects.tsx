@@ -314,6 +314,16 @@ export const teaching: TeachingItem[] = [
     ),
     tags:        ['Wordpress', 'Elementor'],
   },
+    {
+    title:       'Categorización Docente Duoc UC – Perfil Asociado', 
+    institution: 'Duoc UC',
+    period:      '2025 a la fecha',
+    description: (
+      <>
+        Resultado de una <strong><a href='https://drive.google.com/file/d/1jvOzswpzRrQrDQUTKIqkm0ynfe7I478w/view' target='_blank'>trayectoria</a></strong> que integra docencia, desarrollo disciplinar, proyectos de Vinculación con el Medio y participación en iniciativas de la Escuela de Diseño. Este logro reconoce mi experiencia y aporte como docente, manteniendo una conexión activa entre la práctica profesional y la formación de estudiantes. 
+      </>
+    ),
+  },
   {
     title:       'Docencia e impartición de asignaturas en Educación Continua', 
     institution: 'Educación Continua Duoc UC',
