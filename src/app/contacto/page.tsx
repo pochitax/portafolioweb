@@ -27,13 +27,13 @@ const channels = [
     label: 'Curriculum',
     value: 'drive.google.com',
     href: 'https://drive.google.com/file/d/1XCz5KGewMNSFWTUoX_zq9e4NufBK1UqC/view?usp=sharing',
-    description: 'Curriculum profesional y proyectos',
+    description: 'Curriculum profesional, proyectos y trayectoria laboral.',
   },
   {
     label: 'Docencia',
     value: 'drive.google.com',
     href: 'https://drive.google.com/file/d/1jvOzswpzRrQrDQUTKIqkm0ynfe7I478w/view?usp=sharing',
-    description: 'Postulación a categorización docente',
+    description: 'Documento de postulación a la Categorización Docente que contiene evidencias académicas y de vinculación.',
   },
 ]
 
