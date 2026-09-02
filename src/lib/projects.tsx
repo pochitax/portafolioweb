@@ -122,6 +122,7 @@ export const projects: Project[] = [
     featured:    true,
     coverImage:  '/projects/ddhub.png',
     contenido:  `
+    <!--
     <h3>El problema</h3>
     <p>Durante 2025, el sitio web de la Fundación Gantz presentaba intermitencias en el servicio de hosting, generando caídas recurrentes, especialmente durante períodos de mayor flujo de visitas. Esta situación era crítica para la Fundación, ya que durante el año existen períodos de alta demanda asociados a campañas de donaciones y colectas. Como solución, se decidió externalizar la campaña de colecta mediante un nuevo dominio y una landing page, con el objetivo de distribuir el flujo y reducir las interrupciones del servicio.</p>
 
@@ -130,6 +131,7 @@ export const projects: Project[] = [
 
     <h3>Resultado</h3>
     <p>La landing page se mantiene estable y operativa, sin presentar nuevas interrupciones del servicio durante los períodos de mayor flujo de visitas.</p>
+    -->
   `,
   },
   {
@@ -142,6 +144,7 @@ export const projects: Project[] = [
     featured:    true,
     coverImage:  '/projects/mantencion.png',
     contenido:  `
+    <!--
     <h3>El problema</h3>
     <p>Durante 2025, el sitio web de la Fundación Gantz presentaba intermitencias en el servicio de hosting, generando caídas recurrentes, especialmente durante períodos de mayor flujo de visitas. Esta situación era crítica para la Fundación, ya que durante el año existen períodos de alta demanda asociados a campañas de donaciones y colectas. Como solución, se decidió externalizar la campaña de colecta mediante un nuevo dominio y una landing page, con el objetivo de distribuir el flujo y reducir las interrupciones del servicio.</p>
 
@@ -150,6 +153,7 @@ export const projects: Project[] = [
 
     <h3>Resultado</h3>
     <p>La landing page se mantiene estable y operativa, sin presentar nuevas interrupciones del servicio durante los períodos de mayor flujo de visitas.</p>
+    -->
   `,
   },
     {
@@ -219,6 +223,7 @@ export const projects: Project[] = [
     featured:    false,
     coverImage:  '/projects/miramas.png',
     contenido:  `
+    <!--
     <h3>El problema</h3>
     <p>El sitio web de Rutas Formativas de la Escuela de Diseño Duoc UC requería una evaluación de accesibilidad para identificar barreras de navegación y acceso a sus contenidos, considerando los criterios de las WCAG 2.1.</p>
 
@@ -229,6 +234,7 @@ export const projects: Project[] = [
 
     <h3>Resultado</h3>
     <p>La evaluación permitió establecer el nivel de conformidad del sitio respecto de las WCAG 2.1 y definir acciones prioritarias para mejorar su accesibilidad. Además, se establecieron criterios y herramientas para realizar un monitoreo continuo y mantener buenas prácticas de accesibilidad durante la evolución del sitio.</p>
+    -->
   `,
   },
   {
@@ -243,6 +249,7 @@ export const projects: Project[] = [
     featured:    true,
     coverImage:  '/projects/cursos-cortos.png',
     contenido:  `
+    <!--
     <h3>El problema</h3>
     <p>El sitio web de Rutas Formativas de la Escuela de Diseño Duoc UC requería una evaluación de accesibilidad para identificar barreras de navegación y acceso a sus contenidos, considerando los criterios de las WCAG 2.1.</p>
 
@@ -253,6 +260,7 @@ export const projects: Project[] = [
 
     <h3>Resultado</h3>
     <p>La evaluación permitió establecer el nivel de conformidad del sitio respecto de las WCAG 2.1 y definir acciones prioritarias para mejorar su accesibilidad. Además, se establecieron criterios y herramientas para realizar un monitoreo continuo y mantener buenas prácticas de accesibilidad durante la evolución del sitio.</p>
+    -->
   `,
   },
 ]
