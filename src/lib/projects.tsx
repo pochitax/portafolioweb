@@ -7,7 +7,7 @@ export const projects: Project[] = [
     slug:        'portafolio-personal',
     title:       'Portafolio web personal',
     description: 'Vitrina para la muestra de proyectos personales',
-    tags:        ['Typescript', 'CSS', 'React', 'Vercel'],
+    tags:        ['Typescript', 'CSS', 'React', 'Vercel', 'Next.js', 'Claude', 'IA generativa'],
     year:        2026,
     url:         'https://paolaveliz.cl',
     github:      'https://github.com/pochitax/portafolioweb',
@@ -18,12 +18,17 @@ export const projects: Project[] = [
     <p>Necesitaba reunir en un solo espacio mi experiencia, conocimientos y distintas áreas de trabajo, construyendo un sitio que no solo presentara mi trayectoria, sino que también demostrara mis capacidades aplicadas al diseño y desarrollo web.</p>
 
     <h3>Proceso</h3>
-    <p>El desarrollo del sitio partió desde mi propia trayectoria profesional y de la necesidad de integrar en una misma experiencia mis áreas de especialización: UX, diseño, desarrollo frontend y docencia. Utilicé TypeScript como parte del desarrollo para poner en práctica y profundizar mis conocimientos técnicos.</p>
+    <p>El desarrollo del sitio partió desde mi propia trayectoria profesional y de la necesidad de integrar en una misma experiencia mis áreas de especialización:<em> UX, diseño, desarrollo frontend y docencia.</em></p>
+    <p>Para iniciar el proyecto, trabajé junto a <a href="https://claude.ai/" target="_blank">Claude</a>, incorporando mi trayectoria, conocimientos y la estructura que quería desarrollar para el sitio. A partir de esta conversación, exploré el uso de <a href="https://www.typescriptlang.org/" target="_blank">TypeScript</a> y <a href="https://nextjs.org/" target="_blank">Next.js</a>, generando una primera base de código que me permitió levantar el proyecto de manera local.</p>
+
+    <p>Desde esta base, continué desarrollando y ajustando el sitio de forma iterativa, modificando estilos y contenidos e incorporando nuevas funcionalidades según las necesidades del proyecto. Esta experiencia me permitió integrar la IA generativa como parte de mi proceso de desarrollo, poniendo en práctica y profundizando mis conocimientos técnicos en generación y revisión de código.</p>
 
     <p>La identidad visual incorpora elementos que forman parte de mi manera de expresarme y trabajar, como el color fucsia y la tipografía Inter, presentes también en mis presentaciones. El unicornio rosa representa una dimensión más personal de mi identidad y mi faceta de madre, mientras que la diversidad de contenidos y secciones refleja la multiplicidad de áreas que he desarrollado y aprendido a lo largo de mi carrera.</p>
 
     <h3>Resultado</h3>
-    <p>Un sitio limpio y personal que reúne mi trayectoria, proyectos, experiencia docente y conocimientos, y que al mismo tiempo funciona como una demostración concreta de mis capacidades de diseño y desarrollo web. El resultado busca conectar mi identidad profesional y personal en una experiencia digital coherente conmigo.</p>
+    <p>Un sitio limpio y personal que reúne mi trayectoria, proyectos, experiencia docente y conocimientos, y que al mismo tiempo funciona como una demostración concreta de mis capacidades de diseño y desarrollo web.</p>
+
+    <p>El resultado conecta mi identidad profesional y personal en una experiencia digital coherente conmigo. Como parte de la implementación, conecté el repositorio del proyecto en GitHub con Vercel, vinculé el dominio y llevé el sitio a producción en <a href="https://paolaveliz.cl/" target="_blank">paolaveliz.cl</a>.</p>
   `,
   },
   {
