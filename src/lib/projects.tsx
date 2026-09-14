@@ -28,7 +28,7 @@ export const projects: Project[] = [
     <p>La identidad visual incorpora elementos que forman parte de mi manera de expresarme y trabajar, como el color fucsia y la tipografía Inter, presentes también en mis presentaciones. El unicornio rosa representa una dimensión más personal de mi identidad y mi faceta de madre, mientras que la diversidad de contenidos y secciones refleja la multiplicidad de áreas que he desarrollado y aprendido a lo largo de mi carrera.</p>
 
     <h3>Resultado</h3>
-    <p>El resultado conecta mi identidad profesional y personal en una experiencia digital coherente conmigo. Como parte de la implementación, conecté el repositorio del proyecto en GitHub con Vercel, vinculé el dominio y llevé el sitio a producción en <a href="https://paolaveliz.cl/" target="_blank">paolaveliz.cl</a>; un sitio limpio y personal que reúne mi trayectoria, proyectos, experiencia docente y conocimientos, y que al mismo tiempo funciona como una demostración concreta de mis capacidades de diseño y desarrollo web.</p>
+    <p>El resultado conecta mi identidad profesional y personal en una experiencia digital coherente conmigo. Como parte de la implementación, conecté el repositorio del proyecto en <a href="https://github.com/pochitax/portafolioweb" target="_blank">GitHub</a> con <a href="https://vercel.com/" target="_blank">Vercel</a>, vinculé el dominio y llevé el sitio a producción en <a href="https://paolaveliz.cl/" target="_blank">paolaveliz.cl</a>. Finalmente, este trabajo se tradujo en un sitio limpio y personal que reúne mi trayectoria, proyectos, experiencia docente y conocimientos, y que al mismo tiempo funciona como una demostración concreta de mis capacidades de diseño y desarrollo web.</p>
   `,
   },
   {
