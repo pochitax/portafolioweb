@@ -24,6 +24,12 @@ const channels = [
     description: 'Código, repositorios y contribuciones.',
   },
   {
+    label: 'Codepen',
+    value: 'codepen.io/pochitax',
+    href: 'https://codepen.io/pochitax',
+    description: 'Experimentos de código.',
+  },
+  {
     label: 'Curriculum',
     value: 'drive.google.com',
     href: 'https://drive.google.com/file/d/1XCz5KGewMNSFWTUoX_zq9e4NufBK1UqC/view?usp=sharing',
