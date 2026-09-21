@@ -248,19 +248,17 @@ export const projects: Project[] = [
     featured:    false,
     coverImage:  '/projects/miramas.png',
     contenido:  `
-    <!--
     <h3>El problema</h3>
-    <p>El sitio web de Rutas Formativas de la Escuela de Diseño Duoc UC requería una evaluación de accesibilidad para identificar barreras de navegación y acceso a sus contenidos, considerando los criterios de las WCAG 2.1.</p>
+    <p>Los estudiantes necesitan contar con herramientas que les permitan visualizar y planificar su avance curricular, especialmente al momento de decidir qué asignaturas cursar en los siguientes periodos académicos. A partir de esta necesidad surge Mira+, una plataforma de simulación académica de Duoc UC orientada a apoyar la planificación de la trayectoria curricular y favorecer una titulación oportuna.</p>
 
     <h3>Proceso</h3>
-    <p>Realicé una evaluación combinando herramientas automatizadas y revisión manual del código. Se analizaron aspectos como navegación mediante teclado, estructura semántica, encabezados, contraste, textos alternativos, foco de los enlaces y landmarks. Para ello utilicé herramientas como WAVE, Heading Maps, Taba11y y Landmarks Navigation.</p>
+    <p>El proyecto fue desarrollado en conjunto con Nicolás Espinoza, a cargo de la experiencia UX y la organización de los pasos del proceso, y Carlos Aparicio, responsable del diseño de la interfaz. Mi rol estuvo centrado en el desarrollo del front, llevando la propuesta de experiencia e interfaz a una solución web funcional.</p>
 
-    <p>La revisión permitió identificar fortalezas y oportunidades de mejora, generando recomendaciones específicas para optimizar la estructura de contenidos, navegación, contraste y elementos accesibles como acordeones y regiones semánticas.</p>
+    <p>La plataforma permite visualizar el estado de las asignaturas, simular distintos escenarios académicos y generar propuestas de inscripción para los siguientes periodos. También incorpora opciones para considerar asignaturas que podrían reprobarse, definir preferencias horarias y guardar los resultados de la simulación, incluyendo la generación de un resumen descargable en PDF y el envío de una propuesta por correo electrónico.</p>
 
     <h3>Resultado</h3>
-    <p>La evaluación permitió establecer el nivel de conformidad del sitio respecto de las WCAG 2.1 y definir acciones prioritarias para mejorar su accesibilidad. Además, se establecieron criterios y herramientas para realizar un monitoreo continuo y mantener buenas prácticas de accesibilidad durante la evolución del sitio.</p>
-    -->
-  `,
+    <p>En 2021 se desarrolló Mira+, una herramienta de simulación que permite a los estudiantes explorar diferentes escenarios de avance curricular y visualizar alternativas para planificar sus próximos periodos académicos. El proyecto permitió transformar una necesidad de planificación académica en una experiencia digital interactiva, integrando UX, diseño de interfaz y desarrollo front.</p>
+    `,
   },
   {
     slug:        'front-cursos-cortos',
@@ -274,18 +272,16 @@ export const projects: Project[] = [
     featured:    false,
     coverImage:  '/projects/cursos-cortos.png',
     contenido:  `
-    <!--
     <h3>El problema</h3>
-    <p>El sitio web de Rutas Formativas de la Escuela de Diseño Duoc UC requería una evaluación de accesibilidad para identificar barreras de navegación y acceso a sus contenidos, considerando los criterios de las WCAG 2.1.</p>
+    <p>Duoc UC busca generar nuevos prospectos para sus distintas carreras, ofreciendo a la comunidad una amplia oferta de cursos cortos y gratuitos en línea, orientados a áreas de alta demanda laboral. Esta oferta necesitaba una vitrina digital que permitiera a las personas conocer los cursos disponibles e inscribirse en ellos, generando un primer acercamiento con Duoc UC y una posible vinculación futura con sus carreras. A partir de esta necesidad surge una propuesta de sitio para presentar cursos de distintas escuelas, entre ellas Administración y Negocios, Comunicación, Diseño, Informática y Telecomunicaciones y Salud.</p>
 
     <h3>Proceso</h3>
-    <p>Realicé una evaluación combinando herramientas automatizadas y revisión manual del código. Se analizaron aspectos como navegación mediante teclado, estructura semántica, encabezados, contraste, textos alternativos, foco de los enlaces y landmarks. Para ello utilicé herramientas como WAVE, Heading Maps, Taba11y y Landmarks Navigation.</p>
+    <p>El proyecto fue desarrollado en conjunto con Nicolás Espinoza, a cargo de la experiencia UX y la organización de los pasos del proceso, y Carlos Aparicio, responsable del diseño de la interfaz. Mi rol estuvo centrado en el desarrollo del front, llevando la propuesta de experiencia e interfaz a una solución web funcional.</p>
 
-    <p>La revisión permitió identificar fortalezas y oportunidades de mejora, generando recomendaciones específicas para optimizar la estructura de contenidos, navegación, contraste y elementos accesibles como acordeones y regiones semánticas.</p>
+    <p>La propuesta buscó generar una experiencia similar a la de una clase real de Duoc UC, facilitando la exploración de los cursos y acercando la oferta de formación a los estudiantes a través de una interfaz digital.</p>
 
     <h3>Resultado</h3>
-    <p>La evaluación permitió establecer el nivel de conformidad del sitio respecto de las WCAG 2.1 y definir acciones prioritarias para mejorar su accesibilidad. Además, se establecieron criterios y herramientas para realizar un monitoreo continuo y mantener buenas prácticas de accesibilidad durante la evolución del sitio.</p>
-    -->
+    <p>En 2020 se desarrolló una propuesta web para presentar y explorar cursos cortos y gratuitos de distintas escuelas de Duoc UC. El proyecto permitió transformar una oferta de formación en una experiencia digital orientada a los estudiantes, integrando UX, diseño de interfaz y desarrollo front.</p>
   `,
   },
 ]
