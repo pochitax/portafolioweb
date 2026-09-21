@@ -184,6 +184,26 @@ export const projects: Project[] = [
   `,
   },
   {
+    slug:        'glosario-front',
+    title:       'Glosario de términos web',
+    description: 'Glosario de términos para las carreras de Diseño Gráfico Mención Interfaces y Desarrollo y Diseño Web de Duoc UC.',
+    tags:        ['Responsive', 'HTML', 'CSS', 'Bootstrap', 'Javascript'],
+    year:        2024,
+    url:         'https://ddwduocvina.github.io/glosario-front/',
+    github:      'https://github.com/ddwduocvina/glosario-front',
+    featured:    false,
+    coverImage:  '/projects/glosario.png',
+    contenido:  `
+    <h3>El problema</h3> <p>Los estudiantes que comienzan su formación en Diseño Gráfico Mención Interfaces y Desarrollo y Diseño Web se enfrentan a una serie de conceptos y términos propios del mundo digital, UX y desarrollo web. A partir de esta necesidad, se creó un glosario como recurso de apoyo para facilitar su acercamiento y familiarización con este nuevo lenguaje.</p>
+
+    <h3>Proceso</h3> <p>El glosario fue desarrollado utilizando un archivo JSON para organizar y clasificar los términos por letra y entrada. Mediante JavaScript se implementó una solicitud de tipo GET para obtener dinámicamente la información desde el archivo y mostrarla en la interfaz.</p>
+
+    <p>Como parte de la experiencia, se incorporaron funcionalidades como el cambio entre modo claro y oscuro, además de una estructura responsiva que permite adaptar el contenido a distintos tamaños de pantalla.</p>
+
+    <h3>Resultado</h3> <p>Un recurso digital que facilita la consulta y familiarización con conceptos de UX, diseño y desarrollo web, especialmente para estudiantes que están iniciando su formación. El proyecto también permitió aplicar conceptos de manejo de datos en JSON, solicitudes GET, JavaScript y diseño responsivo en una solución web funcional.</p>
+    `,
+  },
+  {
     slug:        'evaluacion-accesibilidad-rutas-formativas',
     title:       'Evaluación de accesibilidad web',
     description: 'Proyecto académico de análisis de accesibilidad en el sitio de Rutas Formativas, Escuela de Diseño Duoc UC',
