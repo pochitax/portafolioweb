@@ -141,25 +141,25 @@ export const projects: Project[] = [
   },
   {
     slug:        'mantencion-sitios-escuela',
-    title:       'Mantención de sitios de Escuela de Diseño Duoc UC',
-    description: '',
+    title:       'Sitios de Escuela de Diseño',
+    description: 'Mantención y actualización de sitios de Escuela de Diseño Duoc UC',
     tags:        ['HTML', 'CSS', 'Javascript', 'Wordpress'],
     year:        2026,
     url:         '',
     featured:    true,
     coverImage:  '/projects/mantencion.png',
     contenido:  `
-    <!--
     <h3>El problema</h3>
-    <p>Durante 2025, el sitio web de la Fundación Gantz presentaba intermitencias en el servicio de hosting, generando caídas recurrentes, especialmente durante períodos de mayor flujo de visitas. Esta situación era crítica para la Fundación, ya que durante el año existen períodos de alta demanda asociados a campañas de donaciones y colectas. Como solución, se decidió externalizar la campaña de colecta mediante un nuevo dominio y una landing page, con el objetivo de distribuir el flujo y reducir las interrupciones del servicio.</p>
+    <p>Los sitios web de la Escuela de Diseño Duoc UC requieren una actualización y mantención constante para asegurar su correcto funcionamiento, mantener sus contenidos vigentes y responder a nuevas necesidades de diseño y comunicación digital.</p>
 
     <h3>Proceso</h3>
-    <p>El diseño de la landing page fue desarrollado por la <a target="_blank" href="https://redon.cl/index.php">Agencia Redon</a>. Me encargué de adaptar la propuesta visual a HTML y CSS, implementando su versión responsive y resolviendo los distintos puntos de quiebre para asegurar una correcta visualización en diferentes dispositivos. Actualmente, estoy a cargo de la actualización y monitoreo del sitio.</p>
+    <p>A partir de 2025 asumí la mantención y actualización de distintos sitios de la Escuela de Diseño: <a href="https://diseno.duoc.cl/ddhub/" target="_blank">DDHub</a>, <a href="https://diseno.duoc.cl/premiosdd/" target="_blank">Premios DD</a>, <a href="https://diseno.duoc.cl/" target="_blank">Diseño Duoc</a> y <a href="https://diseno.duoc.cl/rutasformativas/" target="_blank">Rutas Formativas</a>. Este trabajo contempla ajustes de código HTML y CSS, implementación de solicitudes de diseño y UX, creación y organización de repositorios, actualización de contenidos y otras tareas asociadas al desarrollo y evolución de los sitios.</p>
+
+    <p>Durante 2025 también trabajé junto a Tomás Contreras, estudiante en práctica, a quien guié en la ejecución de tareas y proyectos, acompañando su proceso de aprendizaje y supervisando la implementación de las soluciones.</p>
 
     <h3>Resultado</h3>
-    <p>La landing page se mantiene estable y operativa, sin presentar nuevas interrupciones del servicio durante los períodos de mayor flujo de visitas.</p>
-    -->
-  `,
+    <p>La mantención continua de estos sitios permite mantener actualizadas y operativas distintas plataformas digitales de la Escuela de Diseño. El proyecto también incorporó una dimensión formativa, vinculando la mantención y desarrollo web con la experiencia práctica de un estudiante en proceso de formación profesional.</p>
+    `,
   },
     {
     slug:        'behance-docencia-escuela',
@@ -190,6 +190,7 @@ export const projects: Project[] = [
     tags:        ['Responsive', 'HTML', 'CSS', 'Bootstrap', 'Javascript'],
     year:        2024,
     url:         'https://ddwduocvina.github.io/glosario-front/',
+    urlLabel:     'Ver front del sitio',
     github:      'https://github.com/ddwduocvina/glosario-front',
     featured:    false,
     coverImage:  '/projects/glosario.png',
