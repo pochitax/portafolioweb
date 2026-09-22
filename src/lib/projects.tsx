@@ -65,6 +65,50 @@ export const projects: Project[] = [
   `,
   },
   {
+    slug:        'diseno-ddhub',
+    title:       'Diseño Sitio DDHub',
+    description: 'Diseño para el Sitio DDHub de la Escuela de Diseño Duoc UC',
+    tags:        ['UX', 'UI', 'Mapa de navegación', 'Figma', 'Design System'],
+    year:        2026,
+    url:         'https://diseno.duoc.cl/ddhub/',
+    featured:    true,
+    coverImage:  '/projects/ddhub.png',
+    contenido:  `
+    <h3>El problema</h3>
+    <p>El sitio DDHub de la Escuela de Diseño Duoc UC funcionaba sobre WordPress utilizando Elementor, por lo que surgió la necesidad de avanzar hacia una implementación más nativa y flexible, que permitiera mejorar el control sobre la estructura, los estilos y la evolución del sitio.</p>
+
+    <h3>Proceso</h3>
+    <p>Participé en el proyecto desde la etapa de arquitectura de información, definiendo una nueva estructura y mapa de navegación. A partir de esta base, desarrollé wireframes y posteriormente una guía de estilos basada en las normas gráficas de Duoc UC, estableciendo los criterios visuales para el nuevo sistema de interfaz.</p>
+
+    <p>Con el sistema de diseño definido, desarrollé las pantallas en Figma y realicé el prototipado de la propuesta. Una vez finalizada esta etapa, el proyecto pasó a desarrollo, donde Tomás Contreras estuvo a cargo del front y de la implementación en WordPress, bajo mi monitoreo y dirección.</p>
+
+    <h3>Resultado</h3>
+    <p>Entre fines de 2025 y comienzos de 2026 se desarrolló una nueva propuesta para el sitio DDHub, articulando arquitectura de información, sistema visual, diseño de interfaz y desarrollo en WordPress. El proyecto permitió avanzar hacia una implementación más nativa del sitio y, al mismo tiempo, incorporar una experiencia formativa mediante la participación y acompañamiento de un estudiante en práctica.</p>
+  `,
+  },
+  {
+    slug:        'mantencion-sitios-escuela',
+    title:       'Sitios de Escuela de Diseño',
+    description: 'Mantención y actualización de sitios de Escuela de Diseño Duoc UC',
+    tags:        ['HTML', 'CSS', 'Javascript', 'Wordpress'],
+    year:        2026,
+    url:         '',
+    featured:    true,
+    coverImage:  '/projects/mantencion.png',
+    contenido:  `
+    <h3>El problema</h3>
+    <p>Los sitios web de la Escuela de Diseño Duoc UC requieren una actualización y mantención constante para asegurar su correcto funcionamiento, mantener sus contenidos vigentes y responder a nuevas necesidades de diseño y comunicación digital.</p>
+
+    <h3>Proceso</h3>
+    <p>A partir de 2025 asumí la mantención y actualización de distintos sitios de la Escuela de Diseño: <a href="https://diseno.duoc.cl/ddhub/" target="_blank">DDHub</a>, <a href="https://diseno.duoc.cl/premiosdd/" target="_blank">Premios DD</a>, <a href="https://diseno.duoc.cl/" target="_blank">Diseño Duoc</a> y <a href="https://diseno.duoc.cl/rutasformativas/" target="_blank">Rutas Formativas</a>. Este trabajo contempla ajustes de código HTML y CSS, implementación de solicitudes de diseño y UX, creación y organización de repositorios, actualización de contenidos y otras tareas asociadas al desarrollo y evolución de los sitios.</p>
+
+    <p>Durante 2025 también trabajé junto a Tomás Contreras, estudiante en práctica, a quien guié en la ejecución de tareas y proyectos, acompañando su proceso de aprendizaje y supervisando la implementación de las soluciones.</p>
+
+    <h3>Resultado</h3>
+    <p>La mantención continua de estos sitios permite mantener actualizadas y operativas distintas plataformas digitales de la Escuela de Diseño. El proyecto también incorporó una dimensión formativa, vinculando la mantención y desarrollo web con la experiencia práctica de un estudiante en proceso de formación profesional.</p>
+    `,
+  },
+  {
     slug:        'unidos-por-una-sonrisa',
     title:       'Unidos por una sonrisa',
     description: 'Construcción de landing page para la Fundación Gantz para la Colecta Nacional.',
@@ -118,54 +162,10 @@ export const projects: Project[] = [
   `,
   },
   {
-    slug:        'diseno-ddhub',
-    title:       'Diseño para el Sitio DDHub de la Escuela de Diseño Duoc UC',
-    description: '',
-    tags:        ['UX', 'UI', 'Mapa de navegación', 'Figma', 'Design System'],
-    year:        2026,
-    url:         'https://diseno.duoc.cl/ddhub/',
-    featured:    true,
-    coverImage:  '/projects/ddhub.png',
-    contenido:  `
-    <!--
-    <h3>El problema</h3>
-    <p>Durante 2025, el sitio web de la Fundación Gantz presentaba intermitencias en el servicio de hosting, generando caídas recurrentes, especialmente durante períodos de mayor flujo de visitas. Esta situación era crítica para la Fundación, ya que durante el año existen períodos de alta demanda asociados a campañas de donaciones y colectas. Como solución, se decidió externalizar la campaña de colecta mediante un nuevo dominio y una landing page, con el objetivo de distribuir el flujo y reducir las interrupciones del servicio.</p>
-
-    <h3>Proceso</h3>
-    <p>El diseño de la landing page fue desarrollado por la <a target="_blank" href="https://redon.cl/index.php">Agencia Redon</a>. Me encargué de adaptar la propuesta visual a HTML y CSS, implementando su versión responsive y resolviendo los distintos puntos de quiebre para asegurar una correcta visualización en diferentes dispositivos. Actualmente, estoy a cargo de la actualización y monitoreo del sitio.</p>
-
-    <h3>Resultado</h3>
-    <p>La landing page se mantiene estable y operativa, sin presentar nuevas interrupciones del servicio durante los períodos de mayor flujo de visitas.</p>
-    -->
-  `,
-  },
-  {
-    slug:        'mantencion-sitios-escuela',
-    title:       'Sitios de Escuela de Diseño',
-    description: 'Mantención y actualización de sitios de Escuela de Diseño Duoc UC',
-    tags:        ['HTML', 'CSS', 'Javascript', 'Wordpress'],
-    year:        2026,
-    url:         '',
-    featured:    true,
-    coverImage:  '/projects/mantencion.png',
-    contenido:  `
-    <h3>El problema</h3>
-    <p>Los sitios web de la Escuela de Diseño Duoc UC requieren una actualización y mantención constante para asegurar su correcto funcionamiento, mantener sus contenidos vigentes y responder a nuevas necesidades de diseño y comunicación digital.</p>
-
-    <h3>Proceso</h3>
-    <p>A partir de 2025 asumí la mantención y actualización de distintos sitios de la Escuela de Diseño: <a href="https://diseno.duoc.cl/ddhub/" target="_blank">DDHub</a>, <a href="https://diseno.duoc.cl/premiosdd/" target="_blank">Premios DD</a>, <a href="https://diseno.duoc.cl/" target="_blank">Diseño Duoc</a> y <a href="https://diseno.duoc.cl/rutasformativas/" target="_blank">Rutas Formativas</a>. Este trabajo contempla ajustes de código HTML y CSS, implementación de solicitudes de diseño y UX, creación y organización de repositorios, actualización de contenidos y otras tareas asociadas al desarrollo y evolución de los sitios.</p>
-
-    <p>Durante 2025 también trabajé junto a Tomás Contreras, estudiante en práctica, a quien guié en la ejecución de tareas y proyectos, acompañando su proceso de aprendizaje y supervisando la implementación de las soluciones.</p>
-
-    <h3>Resultado</h3>
-    <p>La mantención continua de estos sitios permite mantener actualizadas y operativas distintas plataformas digitales de la Escuela de Diseño. El proyecto también incorporó una dimensión formativa, vinculando la mantención y desarrollo web con la experiencia práctica de un estudiante en proceso de formación profesional.</p>
-    `,
-  },
-    {
     slug:        'behance-docencia-escuela',
     title:       'Del aula al portafolio',
     description: 'Evidencias de aprendizaje y proyectos de estudiantes en Behance · 2024–2026',
-    tags:        ['UI', 'UX', 'Figma', 'SEO', 'Accesibilidad'],
+    tags:        ['UI', 'UX', 'Figma', 'SEO', 'Accesibilidad','Docencia'],
     year:        2024,
     url:         'https://www.behance.net/paolavelizu/moodboards',
     urlLabel:     'Ver proyectos en Behance',
