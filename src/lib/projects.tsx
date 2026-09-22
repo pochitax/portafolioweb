@@ -65,6 +65,29 @@ export const projects: Project[] = [
   `,
   },
   {
+    slug:        'rutas-formativas',
+    title:       'Rutas Formativas Escuela Diseño Duoc UC',
+    description: 'Ajustes de contenidos y rediseño de carrusel de especializaciones y salidas técnicas.',
+    tags:        ['HTML', 'CSS', 'Javascript', 'Vue.js', 'IA generativa'],
+    year:        2026,
+    url:         'https://diseno.duoc.cl/rutasformativas/',
+    github:      'https://github.com/ddwduocvina/rutas-formativas',
+    featured:    true,
+    coverImage:  '/projects/rutas.jpg',
+    contenido:  `
+    <h3>El problema</h3>
+    <p>El sitio Rutas Formativas de la Escuela de Diseño Duoc UC permite visualizar las especialidades, menciones y salidas técnicas a las que pueden optar los estudiantes a lo largo de su carrera, considerando las distintas versiones de la malla curricular según el CAPE correspondiente. Debido a la evolución de los planes de estudio, desde un modelo basado en menciones hacia uno de especializaciones, surgió la necesidad de actualizar el carrusel principal del sitio para representar de manera adecuada las nuevas rutas formativas.</p>
+
+    <h3>Proceso</h3>
+    <p>El diseño inicial del carrusel fue desarrollado por la Agencia Bloom UX. Mi participación se centra actualmente en la implementación y adaptación de esta propuesta para incorporar las nuevas salidas técnicas y actualizar la experiencia de navegación.</p>
+
+    <p>El carrusel está desarrollado en Vue.js y, durante el proceso de implementación, incorporé IA generativa como herramienta de apoyo para resolver y desarrollar nuevas funcionalidades. Actualmente, el sitio se encuentra en proceso de actualización y poblamiento de las nuevas salidas técnicas en formato HTML, previo a su liberación en producción.</p>
+
+    <h3>Resultado</h3>
+    <p>Una actualización del sistema de navegación de Rutas Formativas que permite representar la evolución de los planes de estudio de la Escuela de Diseño y ampliar el carrusel para incorporar las nuevas salidas técnicas. El proyecto integra diseño, desarrollo frontend con Vue.js y uso aplicado de IA generativa, y actualmente se encuentra en proceso de implementación para su posterior publicación en producción.</p>
+    `,
+  },
+  {
     slug:        'diseno-ddhub',
     title:       'Diseño Sitio DDHub',
     description: 'Diseño para el Sitio DDHub de la Escuela de Diseño Duoc UC',
@@ -136,7 +159,7 @@ export const projects: Project[] = [
     tags:        ['Accesibilidad', 'UX', 'Docencia'],
     year:        2025,
     url:         'https://iavm.cl/',
-    featured:    true,
+    featured:    false,
     coverImage:  '/projects/iavm.jpg',
     contenido:  `
     <h3>El problema</h3>
@@ -500,6 +523,21 @@ export const experiments: Experiment[] = [
       {
         url:   'https://codepen.io/pochitax/embed/poqRvpd?default-tab=html%2Cresult',
         label: 'Ver en CodePen',
+      },
+    ],
+  },
+  {
+    slug:        'sass-bootstrap',
+    coverImage:  '/projects/landing.png',
+    title:       'Landing page Sass y Bootstrap',
+    description: 'Ejercicio académico de ejemplo de uso de Sass y Bootstrap.',
+    tags:        ['HTML', 'CSS', 'Sass', 'Bootstrap'],
+    year:        2023,
+    featured:    true,
+    embeds: [
+      {
+        url:   'https://ddwduocvina.github.io/ejemplo-sass-bs/',
+        label: 'Ver experimento en GH pages',
       },
     ],
   },
