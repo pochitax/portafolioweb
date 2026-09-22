@@ -475,7 +475,7 @@ export const experiments: Experiment[] = [
   },
   {
     slug:        'cartas-animadas',
-    coverImage:  'https://shots.codepen.io/username/pen/LYwyLKB-1280.jpg',
+    coverImage:  '/projects/LYwyLKB-1280.webp',
     title:       'Cartas animadas con CSS',
     description: 'Animaciones y transiciones sólo con estilos. Se toma una imagen de referencia de la web para codificar.',
     tags:        ['HTML', 'CSS'],
@@ -490,7 +490,7 @@ export const experiments: Experiment[] = [
   },
   {
     slug:        'listado-dinamico',
-    coverImage:  'https://shots.codepen.io/username/pen/poqRvpd-1280.jpg',
+    coverImage:  '/projects/poqRvpd-1280.webp',
     title:       'Listado dinámicos de objetos JS',
     description: 'Objetos de Javascript con Tailwind.',
     tags:        ['HTML', 'CSS', 'Javascript', 'Tailwind'],
@@ -535,7 +535,7 @@ export const experiments: Experiment[] = [
   },
   {
     slug:        'titulo-dinamico',
-    coverImage:  'https://shots.codepen.io/username/pen/vYroGWE-1280.jpg',
+    coverImage:  '/projects/vYroGWE-1280.webp',
     title:       'Efecto máquina de escribir con Scene.js y CSS',
     description: 'Experimento con Javascript y CSS.',
     tags:        ['HTML', 'CSS', 'Javascript'],
@@ -550,7 +550,7 @@ export const experiments: Experiment[] = [
   },
   {
     slug:        'tarjeta-credito',
-    coverImage:  'https://shots.codepen.io/username/pen/jOwewEZ-1280.jpg',
+    coverImage:  '/projects/jOwewEZ-1280.webp',
     title:       'Tarjeta de crédito con CSS',
     description: 'Experimento con CSS.',
     tags:        ['HTML', 'CSS'],
