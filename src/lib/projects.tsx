@@ -308,6 +308,29 @@ export const projects: Project[] = [
     <p>En 2020 se desarrolló una propuesta web para presentar y explorar cursos cortos y gratuitos de distintas escuelas de Duoc UC. El proyecto permitió transformar una oferta de formación en una experiencia digital orientada a los estudiantes, integrando UX, diseño de interfaz y desarrollo front.</p>
   `,
   },
+  {
+    slug:        'vivachile',
+    title:       'VivaChile.org',
+    description: 'Mantención y actualización de contenidos, mailing masivos y análisis de métricas',
+    tags:        ['HTML', 'CSS', 'Newsletter', 'Wordpress'],
+    year:        2008,
+    url:         'https://viva-chile.cl/',
+    featured:    false,
+    coverImage:  '/projects/viva.jpg',
+    contenido:  `
+    <h3>El problema</h3>
+    <p>Vivachile.org necesitaba una plataforma web que permitiera publicar y mantener actualizados sus contenidos, además de contar con canales propios para comunicar periódicamente sus novedades a su comunidad. A partir de esta necesidad, se desarrolló un sitio web en WordPress y un sistema de comunicación mediante newsletters.</p>
+
+    <h3>Proceso</h3>
+    <p>En 2008 desarrollé el sitio web Vivachile.org en conjunto con Jonathan Won, utilizando WordPress como CMS. Desde entonces, he estado a cargo de su mantención y actualización de contenidos, gestionando de manera continua la plataforma y sus elementos visuales.</p>
+
+    <p>Como parte de esta gestión, realizo semanalmente newsletters en HTML y su envío mediante la plataforma de mailing masivo Mailrelay. Además, monitoreo métricas y realizo ajustes de banners, imágenes y otros elementos del sitio según las necesidades de comunicación.</p>
+
+    <h3>Resultado</h3>
+    <p>Un sitio web que se mantiene activo y en evolución desde 2008, acompañado de un canal de comunicación digital de actualización semanal. El proyecto reúne experiencia en desarrollo y gestión de WordPress, generación de contenido HTML para mailing, administración de campañas y monitoreo de métricas.</p>
+
+    `,
+  },
 ]
 
 export const featuredProjects = projects.filter((p) => p.featured)
